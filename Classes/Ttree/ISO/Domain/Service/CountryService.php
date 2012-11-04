@@ -41,6 +41,26 @@ class CountryService {
 	 * @param array $data
 	 */
 	public function importExternalData(array $data) {
+		$propertyMappingConfiguration = $this->getPropertyMappingConfiguration();
+
+		foreach ($data as $country) {
+			$existingCountry = $this->countryRepository->findByStandardAndAlpha3($country['standard'], $country['alpha_3_code']);
+			if ($existingCountry === NULL) {
+				$country = $this->propertyMapper->convert($country, 'Ttree\ISO\Domain\Model\Country', $propertyMappingConfiguration);
+				$this->countryRepository->add($country);
+			} else {
+				$country['__identity'] = $this->persistenceManager->getIdentifierByObject($existingCountry);
+				$country = $this->propertyMapper->convert($country, 'Ttree\ISO\Domain\Model\Country', $propertyMappingConfiguration);
+				$this->countryRepository->update($country);
+			}
+			$this->persistenceManager->persistAll();
+		}
+	}
+
+	/**
+	 * @return \TYPO3\Flow\Property\PropertyMappingConfiguration
+	 */
+	protected function getPropertyMappingConfiguration() {
 		$propertyMappingConfiguration = $this->propertyMappingConfigurationBuilder->build();
 		$propertyMappingConfiguration->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\PersistentObjectConverter());
 
@@ -59,15 +79,7 @@ class CountryService {
 		$propertyMappingConfiguration->setMapping('official_name', 'officialName');
 		$propertyMappingConfiguration->setMapping('date_withdrawn', 'dateOfWithdrawn');
 
-		foreach ($data as $country) {
-			/** @var $country \Ttree\ISO\Domain\Model\Country */
-			$country = $this->propertyMapper->convert($country, 'Ttree\ISO\Domain\Model\Country', $propertyMappingConfiguration);
-			if ($this->persistenceManager->isNewObject($country)) {
-				$this->countryRepository->add($country);
-			} else {
-				$this->countryRepository->update($country);
-			}
-		}
+		return $propertyMappingConfiguration;
 	}
 
 }

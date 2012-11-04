@@ -27,7 +27,6 @@ class Language {
 	 * @Flow\Validate(type="StringLength", options={ "minimum"=1, "maximum"=10 })
 	 * @Flow\Validate(type="NotEmpty")
 	 * @ORM\Column(length=10)
-	 * @ORM\Id
 	 */
 	protected $standard;
 
@@ -37,7 +36,6 @@ class Language {
 	 * @Flow\Validate(type="StringLength", options={ "minimum"=3, "maximum"=3 })
 	 * @Flow\Validate(type="NotEmpty")
 	 * @ORM\Column(length=3)
-	 * @ORM\Id
 	 */
 	protected $id;
 

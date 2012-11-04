@@ -15,7 +15,25 @@ use TYPO3\Flow\Annotations as Flow;
  */
 class LanguageRepository extends \TYPO3\Flow\Persistence\Repository {
 
+	/**
+	 * @param string $standard
+	 * @param string $id
+	 * @return \Ttree\ISO\Domain\Model\Country
+	 */
+	public function findByStandardAndId($standard, $id) {
+		$query = $this->createQuery();
 
+		$query->matching(
+			$query->logicalAnd(
+				$query->equals('standard', $standard),
+				$query->equals('id', $id)
+			)
+		);
+
+		$query->setLimit(1);
+
+		return $query->execute()->getFirst();
+	}
 
 }
 

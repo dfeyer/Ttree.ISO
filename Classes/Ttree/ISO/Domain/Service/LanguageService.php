@@ -41,6 +41,26 @@ class LanguageService {
 	 * @param array $data
 	 */
 	public function importExternalData(array $data) {
+		$propertyMappingConfiguration = $this->getPropertyMappingConfiguration();
+
+		foreach ($data as $language) {
+			$existingLanguage = $this->languageRepository->findByStandardAndId($language['standard'], $language['id']);
+			if ($existingLanguage === NULL) {
+				$language = $this->propertyMapper->convert($language, 'Ttree\ISO\Domain\Model\Language', $propertyMappingConfiguration);
+				$this->languageRepository->add($language);
+			} else {
+				$language['__identity'] = $this->persistenceManager->getIdentifierByObject($existingLanguage);
+				$language = $this->propertyMapper->convert($language, 'Ttree\ISO\Domain\Model\Language', $propertyMappingConfiguration);
+				$this->languageRepository->update($language);
+			}
+			$this->persistenceManager->persistAll();
+		}
+	}
+
+	/**
+	 * @return \TYPO3\Flow\Property\PropertyMappingConfiguration
+	 */
+	protected function getPropertyMappingConfiguration() {
 		$propertyMappingConfiguration = $this->propertyMappingConfigurationBuilder->build();
 		$propertyMappingConfiguration->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\PersistentObjectConverter());
 		$propertyMappingConfiguration->setMapping('reference_name', 'referenceName');
@@ -50,14 +70,7 @@ class LanguageService {
 		$propertyMappingConfiguration->setMapping('reference_name', 'referenceName');
 		$propertyMappingConfiguration->setMapping('common_name', 'commonName');
 
-		foreach ($data as $language) {
-			$language = $this->propertyMapper->convert($language, 'Ttree\ISO\Domain\Model\Language', $propertyMappingConfiguration);
-			if ($this->persistenceManager->isNewObject($language)) {
-				$this->languageRepository->add($language);
-			} else {
-				$this->languageRepository->update($language);
-			}
-		}
+		return $propertyMappingConfiguration;
 	}
 }
 ?>

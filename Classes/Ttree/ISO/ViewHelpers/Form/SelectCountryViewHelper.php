@@ -37,6 +37,12 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 	protected $selectedValue = NULL;
 
 	/**
+	 * @Flow\Inject
+	 * @var \Ttree\ISO\Domain\Repository\CountryRepository
+	 */
+	protected $countryRepository;
+
+	/**
 	 * Initialize arguments.
 	 *
 	 * @return void
@@ -108,13 +114,78 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 	 *
 	 * @return array an associative array of options, key will be the value of the option tag
 	 * @throws \TYPO3\Fluid\Core\ViewHelper\Exception
+	 * @todo add cache
 	 */
 	protected function getOptions() {
-		$options = array();
+		$options = array('' => '');
 
-		$options[0] = 'TODO';
+		$countries = $this->countryRepository->findAll();
+		foreach ($countries as $country) {
+			// @todo translate country name
+			$label = $country->getName();
+			$identifier = $this->persistenceManager->getIdentifierByObject($country);
+			$options[$identifier] = $label;
+		}
+
+		asort($options);
 
 		return $options;
+	}
+
+	/**
+	 * Render the option tags.
+	 *
+	 * @param mixed $value Value to check for
+	 * @return boolean TRUE if the value should be marked a s selected; FALSE otherwise
+	 */
+	protected function isSelected($value) {
+		$selectedValue = $this->getSelectedValue();
+		if ($value === $selectedValue || (string)$value === $selectedValue) {
+			return TRUE;
+		}
+		if ($this->hasArgument('multiple')) {
+			if ($selectedValue === NULL) {
+				return TRUE;
+			} elseif (is_array($selectedValue) && in_array($value, $selectedValue)) {
+				return TRUE;
+			}
+		}
+		return FALSE;
+	}
+
+	/**
+	 * Retrieves the selected value(s)
+	 *
+	 * @return mixed value string or an array of strings
+	 */
+	protected function getSelectedValue() {
+		$value = $this->getValue();
+		if (!is_array($value) && !($value instanceof  \Traversable)) {
+			return $this->getOptionValueScalar($value);
+		}
+		$selectedValues = array();
+		foreach ($value as $selectedValueElement) {
+			$selectedValues[] = $this->getOptionValueScalar($selectedValueElement);
+		}
+		return $selectedValues;
+	}
+
+	/**
+	 * Get the option value for an object
+	 *
+	 * @param mixed $valueElement
+	 * @return string
+	 */
+	protected function getOptionValueScalar($valueElement) {
+		if (is_object($valueElement)) {
+			if ($this->persistenceManager->getIdentifierByObject($valueElement) !== NULL) {
+				return $this->persistenceManager->getIdentifierByObject($valueElement);
+			} else {
+				return (string)$valueElement;
+			}
+		} else {
+			return $valueElement;
+		}
 	}
 
 	/**
@@ -126,6 +197,9 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 	 */
 	protected function renderOptionTag($value, $label) {
 		$output = '<option value="' . htmlspecialchars($value) . '"';
+		if ($this->isSelected($value)) {
+			$output .= ' selected="selected"';
+		}
 
 		if ($this->hasArgument('translate')) {
 			$label = $this->getTranslatedLabel($value, $label);
