@@ -1,0 +1,3685 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file original="./zh_TW/Countries.po" source-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit xml:space="preserve" id="1" approved="no" restype="x-gettext-domain-header">
+        <source>Project-Id-Version: iso_3166
+Report-Msgid-Bugs-To: Debian iso-codes team &lt;pkg-isocodes-devel@lists.alioth.debian.org&gt;
+POT-Creation-Date: 2012-08-23 07:39+0200
+PO-Revision-Date: 2012-04-10 23:13+0800
+Last-Translator: Wei-Lun Chao &lt;chaoweilun@gmail.com&gt;
+Language-Team: Chinese (traditional) &lt;zh-l10n@linux.org.tw&gt;
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</source>
+        <target state="translated">Project-Id-Version: iso_3166
+Report-Msgid-Bugs-To: Debian iso-codes team &lt;pkg-isocodes-devel@lists.alioth.debian.org&gt;
+POT-Creation-Date: 2012-08-23 07:39+0200
+PO-Revision-Date: 2012-04-10 23:13+0800
+Last-Translator: Wei-Lun Chao &lt;chaoweilun@gmail.com&gt;
+Language-Team: Chinese (traditional) &lt;zh-l10n@linux.org.tw&gt;
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-trancomment">Translation of ISO-3166 (country names) to Traditional Chinese
+This file is distributed under the same license as the iso-codes package.
+Copyright (C)
+  Free Software Foundation, Inc., 2002, 2003
+  Alastair McKinstry &lt;mckinstry@computer.org&gt;, 2002
+  Translations from KDE:
+  - AceLan &lt;acelan@kde.linux.org.tw&gt;, 2001
+  - Kenduest Lee &lt;kenduest@i18n.linux.org.tw&gt;, 2001
+  Tetralet &lt;tetralet@gmail.com&gt; 2004, 2007, 2008, 2009, 2010
+  Wei-Lun Chao &lt;chaoweilun@gmail.com&gt; 2010, 2012</context>
+        </context-group>
+        <note from="po-translator">Translation of ISO-3166 (country names) to Traditional Chinese
+This file is distributed under the same license as the iso-codes package.
+Copyright (C)
+  Free Software Foundation, Inc., 2002, 2003
+  Alastair McKinstry &lt;mckinstry@computer.org&gt;, 2002
+  Translations from KDE:
+  - AceLan &lt;acelan@kde.linux.org.tw&gt;, 2001
+  - Kenduest Lee &lt;kenduest@i18n.linux.org.tw&gt;, 2001
+  Tetralet &lt;tetralet@gmail.com&gt; 2004, 2007, 2008, 2009, 2010
+  Wei-Lun Chao &lt;chaoweilun@gmail.com&gt; 2010, 2012</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="2" approved="yes">
+        <source>Afghanistan</source>
+        <target state="translated">阿富汗</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AFG</context>
+        </context-group>
+        <note from="developer">name for AFG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="3" approved="yes">
+        <source>Islamic Republic of Afghanistan</source>
+        <target state="translated">阿富汗伊斯蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for AFG</context>
+        </context-group>
+        <note from="developer">official_name for AFG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="4" approved="yes">
+        <source>Åland Islands</source>
+        <target state="translated">奧蘭群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ALA</context>
+        </context-group>
+        <note from="developer">name for ALA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="5" approved="yes">
+        <source>Albania</source>
+        <target state="translated">阿爾巴尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ALB</context>
+        </context-group>
+        <note from="developer">name for ALB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="6" approved="yes">
+        <source>Republic of Albania</source>
+        <target state="translated">阿爾巴尼亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ALB</context>
+        </context-group>
+        <note from="developer">official_name for ALB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="7" approved="yes">
+        <source>Algeria</source>
+        <target state="translated">阿爾及利亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DZA</context>
+        </context-group>
+        <note from="developer">name for DZA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="8" approved="yes">
+        <source>People's Democratic Republic of Algeria</source>
+        <target state="translated">阿爾及利亞人民民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for DZA</context>
+        </context-group>
+        <note from="developer">official_name for DZA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="9" approved="yes">
+        <source>American Samoa</source>
+        <target state="translated">美屬薩摩亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ASM</context>
+        </context-group>
+        <note from="developer">name for ASM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="10" approved="yes">
+        <source>Andorra</source>
+        <target state="translated">安道爾</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AND</context>
+        </context-group>
+        <note from="developer">name for AND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="11" approved="yes">
+        <source>Principality of Andorra</source>
+        <target state="translated">安道爾侯國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for AND</context>
+        </context-group>
+        <note from="developer">official_name for AND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="12" approved="yes">
+        <source>Angola</source>
+        <target state="translated">安哥拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AGO</context>
+        </context-group>
+        <note from="developer">name for AGO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="13" approved="yes">
+        <source>Republic of Angola</source>
+        <target state="translated">安哥拉共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for AGO</context>
+        </context-group>
+        <note from="developer">official_name for AGO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="14" approved="yes">
+        <source>Anguilla</source>
+        <target state="translated">安圭拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AIA</context>
+        </context-group>
+        <note from="developer">name for AIA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="15" approved="yes">
+        <source>Antarctica</source>
+        <target state="translated">南極洲</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ATA</context>
+        </context-group>
+        <note from="developer">name for ATA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="16" approved="yes">
+        <source>Antigua and Barbuda</source>
+        <target state="translated">安地卡及巴布達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ATG</context>
+        </context-group>
+        <note from="developer">name for ATG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="17" approved="yes">
+        <source>Argentina</source>
+        <target state="translated">阿根廷</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ARG</context>
+        </context-group>
+        <note from="developer">name for ARG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="18" approved="yes">
+        <source>Argentine Republic</source>
+        <target state="translated">阿根廷共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ARG</context>
+        </context-group>
+        <note from="developer">official_name for ARG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="19" approved="yes">
+        <source>Armenia</source>
+        <target state="translated">亞美尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ARM</context>
+        </context-group>
+        <note from="developer">name for ARM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="20" approved="yes">
+        <source>Republic of Armenia</source>
+        <target state="translated">亞美尼亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ARM</context>
+        </context-group>
+        <note from="developer">official_name for ARM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="21" approved="yes">
+        <source>Aruba</source>
+        <target state="translated">阿魯巴</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ABW</context>
+        </context-group>
+        <note from="developer">name for ABW</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="22" approved="yes">
+        <source>Australia</source>
+        <target state="translated">澳大利亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AUS</context>
+        </context-group>
+        <note from="developer">name for AUS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="23" approved="yes">
+        <source>Austria</source>
+        <target state="translated">奧地利</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AUT</context>
+        </context-group>
+        <note from="developer">name for AUT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="24" approved="yes">
+        <source>Republic of Austria</source>
+        <target state="translated">奧地利共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for AUT</context>
+        </context-group>
+        <note from="developer">official_name for AUT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="25" approved="yes">
+        <source>Azerbaijan</source>
+        <target state="translated">亞塞拜然</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for AZE</context>
+        </context-group>
+        <note from="developer">name for AZE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="26" approved="yes">
+        <source>Republic of Azerbaijan</source>
+        <target state="translated">亞塞拜然共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for AZE</context>
+        </context-group>
+        <note from="developer">official_name for AZE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="27" approved="yes">
+        <source>Bahamas</source>
+        <target state="translated">巴哈馬</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BHS</context>
+        </context-group>
+        <note from="developer">name for BHS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="28" approved="yes">
+        <source>Commonwealth of the Bahamas</source>
+        <target state="translated">巴哈馬國協</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BHS</context>
+        </context-group>
+        <note from="developer">official_name for BHS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="29" approved="yes">
+        <source>Bahrain</source>
+        <target state="translated">巴林</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BHR</context>
+        </context-group>
+        <note from="developer">name for BHR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="30" approved="yes">
+        <source>Kingdom of Bahrain</source>
+        <target state="translated">巴林王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BHR</context>
+        </context-group>
+        <note from="developer">official_name for BHR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="31" approved="yes">
+        <source>Bangladesh</source>
+        <target state="translated">孟加拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BGD</context>
+        </context-group>
+        <note from="developer">name for BGD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="32" approved="yes">
+        <source>People's Republic of Bangladesh</source>
+        <target state="translated">孟加拉人民共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BGD</context>
+        </context-group>
+        <note from="developer">official_name for BGD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="33" approved="yes">
+        <source>Barbados</source>
+        <target state="translated">巴貝多</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BRB</context>
+        </context-group>
+        <note from="developer">name for BRB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="34" approved="yes">
+        <source>Belarus</source>
+        <target state="translated">白俄羅斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BLR</context>
+        </context-group>
+        <note from="developer">name for BLR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="35" approved="yes">
+        <source>Republic of Belarus</source>
+        <target state="translated">白俄羅斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BLR</context>
+        </context-group>
+        <note from="developer">official_name for BLR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="36" approved="yes">
+        <source>Belgium</source>
+        <target state="translated">比利時</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BEL</context>
+        </context-group>
+        <note from="developer">name for BEL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="37" approved="yes">
+        <source>Kingdom of Belgium</source>
+        <target state="translated">比利時王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BEL</context>
+        </context-group>
+        <note from="developer">official_name for BEL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="38" approved="yes">
+        <source>Belize</source>
+        <target state="translated">貝里斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BLZ</context>
+        </context-group>
+        <note from="developer">name for BLZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="39" approved="yes">
+        <source>Benin</source>
+        <target state="translated">貝南</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BEN</context>
+        </context-group>
+        <note from="developer">name for BEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="40" approved="yes">
+        <source>Republic of Benin</source>
+        <target state="translated">貝南共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BEN</context>
+        </context-group>
+        <note from="developer">official_name for BEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="41" approved="yes">
+        <source>Bermuda</source>
+        <target state="translated">百慕達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BMU</context>
+        </context-group>
+        <note from="developer">name for BMU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="42" approved="yes">
+        <source>Bhutan</source>
+        <target state="translated">不丹</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BTN</context>
+        </context-group>
+        <note from="developer">name for BTN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="43" approved="yes">
+        <source>Kingdom of Bhutan</source>
+        <target state="translated">不丹王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BTN</context>
+        </context-group>
+        <note from="developer">official_name for BTN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="44" approved="yes">
+        <source>Bolivia, Plurinational State of</source>
+        <target state="translated">玻利維亞多民族國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BOL</context>
+        </context-group>
+        <note from="developer">name for BOL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="45" approved="yes">
+        <source>Plurinational State of Bolivia</source>
+        <target state="translated">玻利維亞多民族國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BOL</context>
+        </context-group>
+        <note from="developer">official_name for BOL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="46" approved="yes">
+        <source>Bolivia</source>
+        <target state="translated">玻利維亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">common_name for BOL</context>
+        </context-group>
+        <note from="developer">common_name for BOL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="47" approved="yes">
+        <source>Bonaire, Sint Eustatius and Saba</source>
+        <target state="translated">波內赫、聖尤斯特歇斯及薩巴</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BES, official_name for BES</context>
+        </context-group>
+        <note from="developer">name for BES, official_name for BES</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="48" approved="yes">
+        <source>Bosnia and Herzegovina</source>
+        <target state="translated">波士尼亞及赫塞哥維納</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BIH</context>
+        </context-group>
+        <note from="developer">name for BIH</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="49" approved="yes">
+        <source>Republic of Bosnia and Herzegovina</source>
+        <target state="translated">波士尼亞及赫塞哥維納共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BIH</context>
+        </context-group>
+        <note from="developer">official_name for BIH</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="50" approved="yes">
+        <source>Botswana</source>
+        <target state="translated">波札那</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BWA</context>
+        </context-group>
+        <note from="developer">name for BWA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="51" approved="yes">
+        <source>Republic of Botswana</source>
+        <target state="translated">波札那共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BWA</context>
+        </context-group>
+        <note from="developer">official_name for BWA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="52" approved="yes">
+        <source>Bouvet Island</source>
+        <target state="translated">布威島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BVT</context>
+        </context-group>
+        <note from="developer">name for BVT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="53" approved="yes">
+        <source>Brazil</source>
+        <target state="translated">巴西</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BRA</context>
+        </context-group>
+        <note from="developer">name for BRA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="54" approved="yes">
+        <source>Federative Republic of Brazil</source>
+        <target state="translated">巴西聯邦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BRA</context>
+        </context-group>
+        <note from="developer">official_name for BRA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="55" approved="yes">
+        <source>British Indian Ocean Territory</source>
+        <target state="translated">英屬印度洋領地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IOT</context>
+        </context-group>
+        <note from="developer">name for IOT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="56" approved="yes">
+        <source>Brunei Darussalam</source>
+        <target state="translated">汶萊</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BRN</context>
+        </context-group>
+        <note from="developer">name for BRN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="57" approved="yes">
+        <source>Bulgaria</source>
+        <target state="translated">保加利亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BGR</context>
+        </context-group>
+        <note from="developer">name for BGR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="58" approved="yes">
+        <source>Republic of Bulgaria</source>
+        <target state="translated">保加利亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BGR</context>
+        </context-group>
+        <note from="developer">official_name for BGR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="59" approved="yes">
+        <source>Burkina Faso</source>
+        <target state="translated">布吉納法索</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BFA</context>
+        </context-group>
+        <note from="developer">name for BFA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="60" approved="yes">
+        <source>Burundi</source>
+        <target state="translated">蒲隆地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BDI</context>
+        </context-group>
+        <note from="developer">name for BDI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="61" approved="yes">
+        <source>Republic of Burundi</source>
+        <target state="translated">蒲隆地共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for BDI</context>
+        </context-group>
+        <note from="developer">official_name for BDI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="62" approved="yes">
+        <source>Cambodia</source>
+        <target state="translated">柬埔寨</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KHM</context>
+        </context-group>
+        <note from="developer">name for KHM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="63" approved="yes">
+        <source>Kingdom of Cambodia</source>
+        <target state="translated">柬埔寨王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KHM</context>
+        </context-group>
+        <note from="developer">official_name for KHM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="64" approved="yes">
+        <source>Cameroon</source>
+        <target state="translated">喀麥隆</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CMR</context>
+        </context-group>
+        <note from="developer">name for CMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="65" approved="yes">
+        <source>Republic of Cameroon</source>
+        <target state="translated">喀麥隆共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CMR</context>
+        </context-group>
+        <note from="developer">official_name for CMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="66" approved="yes">
+        <source>Canada</source>
+        <target state="translated">加拿大</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CAN</context>
+        </context-group>
+        <note from="developer">name for CAN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="67" approved="yes">
+        <source>Cape Verde</source>
+        <target state="translated">維德角</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CPV</context>
+        </context-group>
+        <note from="developer">name for CPV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="68" approved="yes">
+        <source>Republic of Cape Verde</source>
+        <target state="translated">維德角共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CPV</context>
+        </context-group>
+        <note from="developer">official_name for CPV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="69" approved="yes">
+        <source>Cayman Islands</source>
+        <target state="translated">開曼群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CYM</context>
+        </context-group>
+        <note from="developer">name for CYM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="70" approved="yes">
+        <source>Central African Republic</source>
+        <target state="translated">中非共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CAF</context>
+        </context-group>
+        <note from="developer">name for CAF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="71" approved="yes">
+        <source>Chad</source>
+        <target state="translated">查德</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TCD</context>
+        </context-group>
+        <note from="developer">name for TCD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="72" approved="yes">
+        <source>Republic of Chad</source>
+        <target state="translated">查德共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TCD</context>
+        </context-group>
+        <note from="developer">official_name for TCD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="73" approved="yes">
+        <source>Chile</source>
+        <target state="translated">智利</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CHL</context>
+        </context-group>
+        <note from="developer">name for CHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="74" approved="yes">
+        <source>Republic of Chile</source>
+        <target state="translated">智利共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CHL</context>
+        </context-group>
+        <note from="developer">official_name for CHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="75" approved="yes">
+        <source>China</source>
+        <target state="translated">中國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CHN</context>
+        </context-group>
+        <note from="developer">name for CHN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="76" approved="yes">
+        <source>People's Republic of China</source>
+        <target state="translated">中華人民共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CHN</context>
+        </context-group>
+        <note from="developer">official_name for CHN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="77" approved="yes">
+        <source>Christmas Island</source>
+        <target state="translated">聖誕島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CXR</context>
+        </context-group>
+        <note from="developer">name for CXR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="78" approved="yes">
+        <source>Cocos (Keeling) Islands</source>
+        <target state="translated">科科斯 (基林) 群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CCK</context>
+        </context-group>
+        <note from="developer">name for CCK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="79" approved="yes">
+        <source>Colombia</source>
+        <target state="translated">哥倫比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for COL</context>
+        </context-group>
+        <note from="developer">name for COL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="80" approved="yes">
+        <source>Republic of Colombia</source>
+        <target state="translated">哥倫比亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for COL</context>
+        </context-group>
+        <note from="developer">official_name for COL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="81" approved="yes">
+        <source>Comoros</source>
+        <target state="translated">葛摩</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for COM</context>
+        </context-group>
+        <note from="developer">name for COM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="82" approved="yes">
+        <source>Union of the Comoros</source>
+        <target state="translated">葛摩聯邦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for COM</context>
+        </context-group>
+        <note from="developer">official_name for COM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="83" approved="yes">
+        <source>Congo</source>
+        <target state="translated">剛果</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for COG</context>
+        </context-group>
+        <note from="developer">name for COG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="84" approved="yes">
+        <source>Republic of the Congo</source>
+        <target state="translated">剛果共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for COG</context>
+        </context-group>
+        <note from="developer">official_name for COG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="85" approved="yes">
+        <source>Congo, The Democratic Republic of the</source>
+        <target state="translated">剛果民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for COD</context>
+        </context-group>
+        <note from="developer">name for COD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="86" approved="yes">
+        <source>Cook Islands</source>
+        <target state="translated">庫克群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for COK</context>
+        </context-group>
+        <note from="developer">name for COK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="87" approved="yes">
+        <source>Costa Rica</source>
+        <target state="translated">哥斯大黎加</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CRI</context>
+        </context-group>
+        <note from="developer">name for CRI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="88" approved="yes">
+        <source>Republic of Costa Rica</source>
+        <target state="translated">哥斯大黎加共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CRI</context>
+        </context-group>
+        <note from="developer">official_name for CRI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="89" approved="yes">
+        <source>Côte d'Ivoire</source>
+        <target state="translated">象牙海岸</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CIV</context>
+        </context-group>
+        <note from="developer">name for CIV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="90" approved="yes">
+        <source>Republic of Côte d'Ivoire</source>
+        <target state="translated">象牙海岸共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CIV</context>
+        </context-group>
+        <note from="developer">official_name for CIV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="91" approved="yes">
+        <source>Croatia</source>
+        <target state="translated">克羅埃西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HRV</context>
+        </context-group>
+        <note from="developer">name for HRV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="92" approved="yes">
+        <source>Republic of Croatia</source>
+        <target state="translated">克羅埃西亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for HRV</context>
+        </context-group>
+        <note from="developer">official_name for HRV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="93" approved="yes">
+        <source>Cuba</source>
+        <target state="translated">古巴</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CUB</context>
+        </context-group>
+        <note from="developer">name for CUB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="94" approved="yes">
+        <source>Republic of Cuba</source>
+        <target state="translated">古巴共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CUB</context>
+        </context-group>
+        <note from="developer">official_name for CUB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="95" approved="yes">
+        <source>Curaçao</source>
+        <target state="translated">庫拉索</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CUW, official_name for CUW</context>
+        </context-group>
+        <note from="developer">name for CUW, official_name for CUW</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="96" approved="yes">
+        <source>Cyprus</source>
+        <target state="translated">賽普勒斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CYP</context>
+        </context-group>
+        <note from="developer">name for CYP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="97" approved="yes">
+        <source>Republic of Cyprus</source>
+        <target state="translated">賽普勒斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CYP</context>
+        </context-group>
+        <note from="developer">official_name for CYP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="98" approved="yes">
+        <source>Czech Republic</source>
+        <target state="translated">捷克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CZE</context>
+        </context-group>
+        <note from="developer">name for CZE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="99" approved="yes">
+        <source>Denmark</source>
+        <target state="translated">丹麥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DNK</context>
+        </context-group>
+        <note from="developer">name for DNK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="100" approved="yes">
+        <source>Kingdom of Denmark</source>
+        <target state="translated">丹麥王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for DNK</context>
+        </context-group>
+        <note from="developer">official_name for DNK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="101" approved="yes">
+        <source>Djibouti</source>
+        <target state="translated">吉布地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DJI</context>
+        </context-group>
+        <note from="developer">name for DJI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="102" approved="yes">
+        <source>Republic of Djibouti</source>
+        <target state="translated">吉布地共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for DJI</context>
+        </context-group>
+        <note from="developer">official_name for DJI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="103" approved="yes">
+        <source>Dominica</source>
+        <target state="translated">多米尼克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DMA</context>
+        </context-group>
+        <note from="developer">name for DMA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="104" approved="yes">
+        <source>Commonwealth of Dominica</source>
+        <target state="translated">多米尼克國協</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for DMA</context>
+        </context-group>
+        <note from="developer">official_name for DMA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="105" approved="yes">
+        <source>Dominican Republic</source>
+        <target state="translated">多明尼加共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DOM</context>
+        </context-group>
+        <note from="developer">name for DOM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="106" approved="yes">
+        <source>Ecuador</source>
+        <target state="translated">厄瓜多</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ECU</context>
+        </context-group>
+        <note from="developer">name for ECU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="107" approved="yes">
+        <source>Republic of Ecuador</source>
+        <target state="translated">厄瓜多共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ECU</context>
+        </context-group>
+        <note from="developer">official_name for ECU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="108" approved="yes">
+        <source>Egypt</source>
+        <target state="translated">埃及</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for EGY</context>
+        </context-group>
+        <note from="developer">name for EGY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="109" approved="yes">
+        <source>Arab Republic of Egypt</source>
+        <target state="translated">埃及阿拉伯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for EGY</context>
+        </context-group>
+        <note from="developer">official_name for EGY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="110" approved="yes">
+        <source>El Salvador</source>
+        <target state="translated">薩爾瓦多</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SLV</context>
+        </context-group>
+        <note from="developer">name for SLV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="111" approved="yes">
+        <source>Republic of El Salvador</source>
+        <target state="translated">薩爾瓦多共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SLV</context>
+        </context-group>
+        <note from="developer">official_name for SLV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="112" approved="yes">
+        <source>Equatorial Guinea</source>
+        <target state="translated">赤道幾內亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GNQ</context>
+        </context-group>
+        <note from="developer">name for GNQ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="113" approved="yes">
+        <source>Republic of Equatorial Guinea</source>
+        <target state="translated">赤道幾內亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GNQ</context>
+        </context-group>
+        <note from="developer">official_name for GNQ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="114" approved="yes">
+        <source>Eritrea</source>
+        <target state="translated">厄利垂亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ERI</context>
+        </context-group>
+        <note from="developer">name for ERI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="115" approved="no">
+        <source>the State of Eritrea</source>
+        <target state="needs-translation">美利堅合眾國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ERI</context>
+        </context-group>
+        <note from="developer">official_name for ERI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="116" approved="yes">
+        <source>Estonia</source>
+        <target state="translated">愛沙尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for EST</context>
+        </context-group>
+        <note from="developer">name for EST</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="117" approved="yes">
+        <source>Republic of Estonia</source>
+        <target state="translated">愛沙尼亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for EST</context>
+        </context-group>
+        <note from="developer">official_name for EST</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="118" approved="yes">
+        <source>Ethiopia</source>
+        <target state="translated">衣索比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ETH, historic names for ETH (withdrawn 1993-07-16)</context>
+        </context-group>
+        <note from="developer">name for ETH, historic names for ETH (withdrawn 1993-07-16)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="119" approved="yes">
+        <source>Federal Democratic Republic of Ethiopia</source>
+        <target state="translated">衣索比亞聯邦民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ETH</context>
+        </context-group>
+        <note from="developer">official_name for ETH</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="120" approved="yes">
+        <source>Falkland Islands (Malvinas)</source>
+        <target state="translated">福克蘭群島 (馬維娜斯)</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FLK</context>
+        </context-group>
+        <note from="developer">name for FLK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="121" approved="yes">
+        <source>Faroe Islands</source>
+        <target state="translated">法羅群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FRO</context>
+        </context-group>
+        <note from="developer">name for FRO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="122" approved="yes">
+        <source>Fiji</source>
+        <target state="translated">斐濟</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FJI</context>
+        </context-group>
+        <note from="developer">name for FJI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="123" approved="yes">
+        <source>Republic of Fiji</source>
+        <target state="translated">斐濟共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for FJI</context>
+        </context-group>
+        <note from="developer">official_name for FJI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="124" approved="yes">
+        <source>Finland</source>
+        <target state="translated">芬蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FIN</context>
+        </context-group>
+        <note from="developer">name for FIN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="125" approved="yes">
+        <source>Republic of Finland</source>
+        <target state="translated">芬蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for FIN</context>
+        </context-group>
+        <note from="developer">official_name for FIN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="126" approved="yes">
+        <source>France</source>
+        <target state="translated">法國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FRA</context>
+        </context-group>
+        <note from="developer">name for FRA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="127" approved="yes">
+        <source>French Republic</source>
+        <target state="translated">法蘭西共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for FRA</context>
+        </context-group>
+        <note from="developer">official_name for FRA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="128" approved="yes">
+        <source>French Guiana</source>
+        <target state="translated">法屬蓋亞那</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GUF</context>
+        </context-group>
+        <note from="developer">name for GUF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="129" approved="yes">
+        <source>French Polynesia</source>
+        <target state="translated">法屬玻里尼西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PYF</context>
+        </context-group>
+        <note from="developer">name for PYF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="130" approved="yes">
+        <source>French Southern Territories</source>
+        <target state="translated">法屬南部領地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ATF</context>
+        </context-group>
+        <note from="developer">name for ATF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="131" approved="yes">
+        <source>Gabon</source>
+        <target state="translated">加彭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GAB</context>
+        </context-group>
+        <note from="developer">name for GAB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="132" approved="yes">
+        <source>Gabonese Republic</source>
+        <target state="translated">加彭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GAB</context>
+        </context-group>
+        <note from="developer">official_name for GAB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="133" approved="yes">
+        <source>Gambia</source>
+        <target state="translated">甘比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GMB</context>
+        </context-group>
+        <note from="developer">name for GMB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="134" approved="yes">
+        <source>Republic of the Gambia</source>
+        <target state="translated">甘比亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GMB</context>
+        </context-group>
+        <note from="developer">official_name for GMB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="135" approved="yes">
+        <source>Georgia</source>
+        <target state="translated">喬治亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GEO</context>
+        </context-group>
+        <note from="developer">name for GEO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="136" approved="yes">
+        <source>Germany</source>
+        <target state="translated">德國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for DEU</context>
+        </context-group>
+        <note from="developer">name for DEU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="137" approved="yes">
+        <source>Federal Republic of Germany</source>
+        <target state="translated">德意志聯邦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for DEU</context>
+        </context-group>
+        <note from="developer">official_name for DEU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="138" approved="yes">
+        <source>Ghana</source>
+        <target state="translated">迦納</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GHA</context>
+        </context-group>
+        <note from="developer">name for GHA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="139" approved="yes">
+        <source>Republic of Ghana</source>
+        <target state="translated">迦納共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GHA</context>
+        </context-group>
+        <note from="developer">official_name for GHA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="140" approved="yes">
+        <source>Gibraltar</source>
+        <target state="translated">直布羅陀</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GIB</context>
+        </context-group>
+        <note from="developer">name for GIB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="141" approved="yes">
+        <source>Greece</source>
+        <target state="translated">希臘</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GRC</context>
+        </context-group>
+        <note from="developer">name for GRC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="142" approved="yes">
+        <source>Hellenic Republic</source>
+        <target state="translated">希臘共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GRC</context>
+        </context-group>
+        <note from="developer">official_name for GRC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="143" approved="yes">
+        <source>Greenland</source>
+        <target state="translated">格陵蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GRL</context>
+        </context-group>
+        <note from="developer">name for GRL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="144" approved="yes">
+        <source>Grenada</source>
+        <target state="translated">格瑞那達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GRD</context>
+        </context-group>
+        <note from="developer">name for GRD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="145" approved="yes">
+        <source>Guadeloupe</source>
+        <target state="translated">瓜地洛普</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GLP</context>
+        </context-group>
+        <note from="developer">name for GLP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="146" approved="yes">
+        <source>Guam</source>
+        <target state="translated">關島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GUM</context>
+        </context-group>
+        <note from="developer">name for GUM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="147" approved="yes">
+        <source>Guatemala</source>
+        <target state="translated">瓜地馬拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GTM</context>
+        </context-group>
+        <note from="developer">name for GTM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="148" approved="yes">
+        <source>Republic of Guatemala</source>
+        <target state="translated">瓜地馬拉共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GTM</context>
+        </context-group>
+        <note from="developer">official_name for GTM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="149" approved="yes">
+        <source>Guernsey</source>
+        <target state="translated">根息島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GGY</context>
+        </context-group>
+        <note from="developer">name for GGY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="150" approved="yes">
+        <source>Guinea</source>
+        <target state="translated">幾內亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GIN</context>
+        </context-group>
+        <note from="developer">name for GIN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="151" approved="yes">
+        <source>Republic of Guinea</source>
+        <target state="translated">幾內亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GIN</context>
+        </context-group>
+        <note from="developer">official_name for GIN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="152" approved="yes">
+        <source>Guinea-Bissau</source>
+        <target state="translated">幾內亞比索</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GNB</context>
+        </context-group>
+        <note from="developer">name for GNB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="153" approved="yes">
+        <source>Republic of Guinea-Bissau</source>
+        <target state="translated">幾內亞比索共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GNB</context>
+        </context-group>
+        <note from="developer">official_name for GNB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="154" approved="yes">
+        <source>Guyana</source>
+        <target state="translated">蓋亞那</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GUY</context>
+        </context-group>
+        <note from="developer">name for GUY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="155" approved="yes">
+        <source>Republic of Guyana</source>
+        <target state="translated">蓋亞那共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GUY</context>
+        </context-group>
+        <note from="developer">official_name for GUY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="156" approved="yes">
+        <source>Haiti</source>
+        <target state="translated">海地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HTI</context>
+        </context-group>
+        <note from="developer">name for HTI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="157" approved="yes">
+        <source>Republic of Haiti</source>
+        <target state="translated">海地共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for HTI</context>
+        </context-group>
+        <note from="developer">official_name for HTI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="158" approved="yes">
+        <source>Heard Island and McDonald Islands</source>
+        <target state="translated">赫德島及麥當勞群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HMD</context>
+        </context-group>
+        <note from="developer">name for HMD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="159" approved="yes">
+        <source>Holy See (Vatican City State)</source>
+        <target state="translated">教廷 (梵蒂岡城市國)</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VAT</context>
+        </context-group>
+        <note from="developer">name for VAT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="160" approved="yes">
+        <source>Honduras</source>
+        <target state="translated">宏都拉斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HND</context>
+        </context-group>
+        <note from="developer">name for HND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="161" approved="yes">
+        <source>Republic of Honduras</source>
+        <target state="translated">宏都拉斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for HND</context>
+        </context-group>
+        <note from="developer">official_name for HND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="162" approved="yes">
+        <source>Hong Kong</source>
+        <target state="translated">香港</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HKG</context>
+        </context-group>
+        <note from="developer">name for HKG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="163" approved="yes">
+        <source>Hong Kong Special Administrative Region of China</source>
+        <target state="translated">中國香港特別行政區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for HKG</context>
+        </context-group>
+        <note from="developer">official_name for HKG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="164" approved="yes">
+        <source>Hungary</source>
+        <target state="translated">匈牙利</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for HUN, official_name for HUN</context>
+        </context-group>
+        <note from="developer">name for HUN, official_name for HUN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="165" approved="yes">
+        <source>Iceland</source>
+        <target state="translated">冰島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ISL</context>
+        </context-group>
+        <note from="developer">name for ISL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="166" approved="yes">
+        <source>Republic of Iceland</source>
+        <target state="translated">冰島共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ISL</context>
+        </context-group>
+        <note from="developer">official_name for ISL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="167" approved="yes">
+        <source>India</source>
+        <target state="translated">印度</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IND</context>
+        </context-group>
+        <note from="developer">name for IND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="168" approved="yes">
+        <source>Republic of India</source>
+        <target state="translated">印度共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for IND</context>
+        </context-group>
+        <note from="developer">official_name for IND</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="169" approved="yes">
+        <source>Indonesia</source>
+        <target state="translated">印度尼西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IDN</context>
+        </context-group>
+        <note from="developer">name for IDN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="170" approved="yes">
+        <source>Republic of Indonesia</source>
+        <target state="translated">印度尼西亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for IDN</context>
+        </context-group>
+        <note from="developer">official_name for IDN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="171" approved="yes">
+        <source>Iran, Islamic Republic of</source>
+        <target state="translated">伊朗伊斯蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IRN</context>
+        </context-group>
+        <note from="developer">name for IRN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="172" approved="yes">
+        <source>Islamic Republic of Iran</source>
+        <target state="translated">伊朗伊斯蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for IRN</context>
+        </context-group>
+        <note from="developer">official_name for IRN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="173" approved="yes">
+        <source>Iraq</source>
+        <target state="translated">伊拉克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IRQ</context>
+        </context-group>
+        <note from="developer">name for IRQ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="174" approved="yes">
+        <source>Republic of Iraq</source>
+        <target state="translated">伊拉克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for IRQ</context>
+        </context-group>
+        <note from="developer">official_name for IRQ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="175" approved="yes">
+        <source>Ireland</source>
+        <target state="translated">愛爾蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IRL</context>
+        </context-group>
+        <note from="developer">name for IRL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="176" approved="yes">
+        <source>Isle of Man</source>
+        <target state="translated">曼島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for IMN</context>
+        </context-group>
+        <note from="developer">name for IMN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="177" approved="yes">
+        <source>Israel</source>
+        <target state="translated">以色列</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ISR</context>
+        </context-group>
+        <note from="developer">name for ISR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="178" approved="yes">
+        <source>State of Israel</source>
+        <target state="translated">以色列國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ISR</context>
+        </context-group>
+        <note from="developer">official_name for ISR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="179" approved="yes">
+        <source>Italy</source>
+        <target state="translated">義大利</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ITA</context>
+        </context-group>
+        <note from="developer">name for ITA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="180" approved="yes">
+        <source>Italian Republic</source>
+        <target state="translated">義大利共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ITA</context>
+        </context-group>
+        <note from="developer">official_name for ITA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="181" approved="yes">
+        <source>Jamaica</source>
+        <target state="translated">牙買加</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for JAM</context>
+        </context-group>
+        <note from="developer">name for JAM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="182" approved="yes">
+        <source>Japan</source>
+        <target state="translated">日本</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for JPN</context>
+        </context-group>
+        <note from="developer">name for JPN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="183" approved="yes">
+        <source>Jersey</source>
+        <target state="translated">澤西島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for JEY</context>
+        </context-group>
+        <note from="developer">name for JEY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="184" approved="yes">
+        <source>Jordan</source>
+        <target state="translated">約旦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for JOR</context>
+        </context-group>
+        <note from="developer">name for JOR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="185" approved="yes">
+        <source>Hashemite Kingdom of Jordan</source>
+        <target state="translated">約旦哈什米王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for JOR</context>
+        </context-group>
+        <note from="developer">official_name for JOR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="186" approved="yes">
+        <source>Kazakhstan</source>
+        <target state="translated">哈薩克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KAZ</context>
+        </context-group>
+        <note from="developer">name for KAZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="187" approved="yes">
+        <source>Republic of Kazakhstan</source>
+        <target state="translated">哈薩克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KAZ</context>
+        </context-group>
+        <note from="developer">official_name for KAZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="188" approved="yes">
+        <source>Kenya</source>
+        <target state="translated">肯亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KEN</context>
+        </context-group>
+        <note from="developer">name for KEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="189" approved="yes">
+        <source>Republic of Kenya</source>
+        <target state="translated">肯亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KEN</context>
+        </context-group>
+        <note from="developer">official_name for KEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="190" approved="yes">
+        <source>Kiribati</source>
+        <target state="translated">吉里巴斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KIR</context>
+        </context-group>
+        <note from="developer">name for KIR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="191" approved="yes">
+        <source>Republic of Kiribati</source>
+        <target state="translated">吉里巴斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KIR</context>
+        </context-group>
+        <note from="developer">official_name for KIR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="192" approved="yes">
+        <source>Korea, Democratic People's Republic of</source>
+        <target state="translated">朝鮮民主主義人民共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PRK</context>
+        </context-group>
+        <note from="developer">name for PRK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="193" approved="yes">
+        <source>Democratic People's Republic of Korea</source>
+        <target state="translated">朝鮮民主主義人民共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PRK</context>
+        </context-group>
+        <note from="developer">official_name for PRK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="194" approved="yes">
+        <source>Korea, Republic of</source>
+        <target state="translated">大韓民國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KOR</context>
+        </context-group>
+        <note from="developer">name for KOR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="195" approved="yes">
+        <source>Kuwait</source>
+        <target state="translated">科威特</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KWT</context>
+        </context-group>
+        <note from="developer">name for KWT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="196" approved="yes">
+        <source>State of Kuwait</source>
+        <target state="translated">科威特國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KWT</context>
+        </context-group>
+        <note from="developer">official_name for KWT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="197" approved="yes">
+        <source>Kyrgyzstan</source>
+        <target state="translated">吉爾吉斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KGZ</context>
+        </context-group>
+        <note from="developer">name for KGZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="198" approved="yes">
+        <source>Kyrgyz Republic</source>
+        <target state="translated">吉爾吉斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for KGZ</context>
+        </context-group>
+        <note from="developer">official_name for KGZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="199" approved="yes">
+        <source>Lao People's Democratic Republic</source>
+        <target state="translated">寮人民民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LAO</context>
+        </context-group>
+        <note from="developer">name for LAO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="200" approved="yes">
+        <source>Latvia</source>
+        <target state="translated">拉脫維亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LVA</context>
+        </context-group>
+        <note from="developer">name for LVA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="201" approved="yes">
+        <source>Republic of Latvia</source>
+        <target state="translated">拉脫維亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LVA</context>
+        </context-group>
+        <note from="developer">official_name for LVA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="202" approved="yes">
+        <source>Lebanon</source>
+        <target state="translated">黎巴嫩</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LBN</context>
+        </context-group>
+        <note from="developer">name for LBN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="203" approved="yes">
+        <source>Lebanese Republic</source>
+        <target state="translated">黎巴嫩共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LBN</context>
+        </context-group>
+        <note from="developer">official_name for LBN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="204" approved="yes">
+        <source>Lesotho</source>
+        <target state="translated">賴索托</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LSO</context>
+        </context-group>
+        <note from="developer">name for LSO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="205" approved="yes">
+        <source>Kingdom of Lesotho</source>
+        <target state="translated">賴索托王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LSO</context>
+        </context-group>
+        <note from="developer">official_name for LSO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="206" approved="yes">
+        <source>Liberia</source>
+        <target state="translated">賴比瑞亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LBR</context>
+        </context-group>
+        <note from="developer">name for LBR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="207" approved="yes">
+        <source>Republic of Liberia</source>
+        <target state="translated">賴比瑞亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LBR</context>
+        </context-group>
+        <note from="developer">official_name for LBR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="208" approved="yes">
+        <source>Libya</source>
+        <target state="translated">利比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LBY, official_name for LBY</context>
+        </context-group>
+        <note from="developer">name for LBY, official_name for LBY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="209" approved="yes">
+        <source>Liechtenstein</source>
+        <target state="translated">列支敦斯登</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LIE</context>
+        </context-group>
+        <note from="developer">name for LIE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="210" approved="yes">
+        <source>Principality of Liechtenstein</source>
+        <target state="translated">列支敦斯登侯國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LIE</context>
+        </context-group>
+        <note from="developer">official_name for LIE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="211" approved="yes">
+        <source>Lithuania</source>
+        <target state="translated">立陶宛</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LTU</context>
+        </context-group>
+        <note from="developer">name for LTU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="212" approved="yes">
+        <source>Republic of Lithuania</source>
+        <target state="translated">立陶宛共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LTU</context>
+        </context-group>
+        <note from="developer">official_name for LTU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="213" approved="yes">
+        <source>Luxembourg</source>
+        <target state="translated">盧森堡</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LUX</context>
+        </context-group>
+        <note from="developer">name for LUX</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="214" approved="yes">
+        <source>Grand Duchy of Luxembourg</source>
+        <target state="translated">盧森堡大公國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LUX</context>
+        </context-group>
+        <note from="developer">official_name for LUX</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="215" approved="yes">
+        <source>Macao</source>
+        <target state="translated">澳門</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MAC</context>
+        </context-group>
+        <note from="developer">name for MAC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="216" approved="yes">
+        <source>Macao Special Administrative Region of China</source>
+        <target state="translated">中國澳門特別行政區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MAC</context>
+        </context-group>
+        <note from="developer">official_name for MAC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="217" approved="yes">
+        <source>Macedonia, Republic of</source>
+        <target state="translated">馬其頓共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MKD</context>
+        </context-group>
+        <note from="developer">name for MKD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="218" approved="yes">
+        <source>The Former Yugoslav Republic of Macedonia</source>
+        <target state="translated">馬其頓前南斯拉夫共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MKD</context>
+        </context-group>
+        <note from="developer">official_name for MKD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="219" approved="yes">
+        <source>Madagascar</source>
+        <target state="translated">馬達加斯加</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MDG</context>
+        </context-group>
+        <note from="developer">name for MDG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="220" approved="yes">
+        <source>Republic of Madagascar</source>
+        <target state="translated">馬達加斯加共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MDG</context>
+        </context-group>
+        <note from="developer">official_name for MDG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="221" approved="yes">
+        <source>Malawi</source>
+        <target state="translated">馬拉威</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MWI</context>
+        </context-group>
+        <note from="developer">name for MWI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="222" approved="yes">
+        <source>Republic of Malawi</source>
+        <target state="translated">馬拉威共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MWI</context>
+        </context-group>
+        <note from="developer">official_name for MWI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="223" approved="yes">
+        <source>Malaysia</source>
+        <target state="translated">馬來西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MYS</context>
+        </context-group>
+        <note from="developer">name for MYS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="224" approved="yes">
+        <source>Maldives</source>
+        <target state="translated">馬爾地夫</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MDV</context>
+        </context-group>
+        <note from="developer">name for MDV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="225" approved="yes">
+        <source>Republic of Maldives</source>
+        <target state="translated">馬爾地夫共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MDV</context>
+        </context-group>
+        <note from="developer">official_name for MDV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="226" approved="yes">
+        <source>Mali</source>
+        <target state="translated">馬利</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MLI</context>
+        </context-group>
+        <note from="developer">name for MLI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="227" approved="yes">
+        <source>Republic of Mali</source>
+        <target state="translated">馬利共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MLI</context>
+        </context-group>
+        <note from="developer">official_name for MLI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="228" approved="yes">
+        <source>Malta</source>
+        <target state="translated">馬爾他</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MLT</context>
+        </context-group>
+        <note from="developer">name for MLT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="229" approved="yes">
+        <source>Republic of Malta</source>
+        <target state="translated">馬爾他共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MLT</context>
+        </context-group>
+        <note from="developer">official_name for MLT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="230" approved="yes">
+        <source>Marshall Islands</source>
+        <target state="translated">馬紹爾群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MHL</context>
+        </context-group>
+        <note from="developer">name for MHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="231" approved="yes">
+        <source>Republic of the Marshall Islands</source>
+        <target state="translated">馬紹爾群島共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MHL</context>
+        </context-group>
+        <note from="developer">official_name for MHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="232" approved="yes">
+        <source>Martinique</source>
+        <target state="translated">馬丁尼克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MTQ</context>
+        </context-group>
+        <note from="developer">name for MTQ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="233" approved="yes">
+        <source>Mauritania</source>
+        <target state="translated">茅利塔尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MRT</context>
+        </context-group>
+        <note from="developer">name for MRT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="234" approved="yes">
+        <source>Islamic Republic of Mauritania</source>
+        <target state="translated">茅利塔尼亞伊斯蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MRT</context>
+        </context-group>
+        <note from="developer">official_name for MRT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="235" approved="yes">
+        <source>Mauritius</source>
+        <target state="translated">模里西斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MUS</context>
+        </context-group>
+        <note from="developer">name for MUS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="236" approved="yes">
+        <source>Republic of Mauritius</source>
+        <target state="translated">模里西斯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MUS</context>
+        </context-group>
+        <note from="developer">official_name for MUS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="237" approved="yes">
+        <source>Mayotte</source>
+        <target state="translated">馬約特</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MYT</context>
+        </context-group>
+        <note from="developer">name for MYT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="238" approved="yes">
+        <source>Mexico</source>
+        <target state="translated">墨西哥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MEX</context>
+        </context-group>
+        <note from="developer">name for MEX</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="239" approved="yes">
+        <source>United Mexican States</source>
+        <target state="translated">墨西哥合眾國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MEX</context>
+        </context-group>
+        <note from="developer">official_name for MEX</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="240" approved="yes">
+        <source>Micronesia, Federated States of</source>
+        <target state="translated">密克羅尼西亞聯邦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for FSM</context>
+        </context-group>
+        <note from="developer">name for FSM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="241" approved="yes">
+        <source>Federated States of Micronesia</source>
+        <target state="translated">密克羅尼西亞聯邦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for FSM</context>
+        </context-group>
+        <note from="developer">official_name for FSM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="242" approved="yes">
+        <source>Moldova, Republic of</source>
+        <target state="translated">摩爾多瓦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MDA</context>
+        </context-group>
+        <note from="developer">name for MDA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="243" approved="yes">
+        <source>Republic of Moldova</source>
+        <target state="translated">摩爾多瓦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MDA</context>
+        </context-group>
+        <note from="developer">official_name for MDA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="244" approved="yes">
+        <source>Moldova</source>
+        <target state="translated">摩爾多瓦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">common_name for MDA</context>
+        </context-group>
+        <note from="developer">common_name for MDA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="245" approved="yes">
+        <source>Monaco</source>
+        <target state="translated">摩納哥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MCO</context>
+        </context-group>
+        <note from="developer">name for MCO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="246" approved="yes">
+        <source>Principality of Monaco</source>
+        <target state="translated">摩納哥侯國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MCO</context>
+        </context-group>
+        <note from="developer">official_name for MCO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="247" approved="yes">
+        <source>Mongolia</source>
+        <target state="translated">蒙古</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MNG</context>
+        </context-group>
+        <note from="developer">name for MNG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="248" approved="yes">
+        <source>Montenegro</source>
+        <target state="translated">蒙特內哥羅</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MNE, official_name for MNE</context>
+        </context-group>
+        <note from="developer">name for MNE, official_name for MNE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="249" approved="yes">
+        <source>Montserrat</source>
+        <target state="translated">蒙塞拉特島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MSR</context>
+        </context-group>
+        <note from="developer">name for MSR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="250" approved="yes">
+        <source>Morocco</source>
+        <target state="translated">摩洛哥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MAR</context>
+        </context-group>
+        <note from="developer">name for MAR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="251" approved="yes">
+        <source>Kingdom of Morocco</source>
+        <target state="translated">摩洛哥王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MAR</context>
+        </context-group>
+        <note from="developer">official_name for MAR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="252" approved="yes">
+        <source>Mozambique</source>
+        <target state="translated">莫三比克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MOZ</context>
+        </context-group>
+        <note from="developer">name for MOZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="253" approved="yes">
+        <source>Republic of Mozambique</source>
+        <target state="translated">莫三比克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MOZ</context>
+        </context-group>
+        <note from="developer">official_name for MOZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="254" approved="yes">
+        <source>Myanmar</source>
+        <target state="translated">緬甸</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MMR</context>
+        </context-group>
+        <note from="developer">name for MMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="255" approved="yes">
+        <source>Republic of Myanmar</source>
+        <target state="translated">緬甸共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MMR</context>
+        </context-group>
+        <note from="developer">official_name for MMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="256" approved="yes">
+        <source>Namibia</source>
+        <target state="translated">納米比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NAM</context>
+        </context-group>
+        <note from="developer">name for NAM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="257" approved="yes">
+        <source>Republic of Namibia</source>
+        <target state="translated">納米比亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NAM</context>
+        </context-group>
+        <note from="developer">official_name for NAM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="258" approved="yes">
+        <source>Nauru</source>
+        <target state="translated">諾魯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NRU</context>
+        </context-group>
+        <note from="developer">name for NRU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="259" approved="yes">
+        <source>Republic of Nauru</source>
+        <target state="translated">諾魯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NRU</context>
+        </context-group>
+        <note from="developer">official_name for NRU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="260" approved="yes">
+        <source>Nepal</source>
+        <target state="translated">尼泊爾</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NPL</context>
+        </context-group>
+        <note from="developer">name for NPL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="261" approved="yes">
+        <source>Federal Democratic Republic of Nepal</source>
+        <target state="translated">尼泊爾聯邦民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NPL</context>
+        </context-group>
+        <note from="developer">official_name for NPL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="262" approved="yes">
+        <source>Netherlands</source>
+        <target state="translated">荷蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NLD</context>
+        </context-group>
+        <note from="developer">name for NLD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="263" approved="yes">
+        <source>Kingdom of the Netherlands</source>
+        <target state="translated">荷蘭王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NLD</context>
+        </context-group>
+        <note from="developer">official_name for NLD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="264" approved="yes">
+        <source>New Caledonia</source>
+        <target state="translated">新喀里多尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NCL</context>
+        </context-group>
+        <note from="developer">name for NCL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="265" approved="yes">
+        <source>New Zealand</source>
+        <target state="translated">紐西蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NZL</context>
+        </context-group>
+        <note from="developer">name for NZL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="266" approved="yes">
+        <source>Nicaragua</source>
+        <target state="translated">尼加拉瓜</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NIC</context>
+        </context-group>
+        <note from="developer">name for NIC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="267" approved="yes">
+        <source>Republic of Nicaragua</source>
+        <target state="translated">尼加拉瓜共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NIC</context>
+        </context-group>
+        <note from="developer">official_name for NIC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="268" approved="yes">
+        <source>Niger</source>
+        <target state="translated">尼日</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NER</context>
+        </context-group>
+        <note from="developer">name for NER</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="269" approved="yes">
+        <source>Republic of the Niger</source>
+        <target state="translated">尼日共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NER</context>
+        </context-group>
+        <note from="developer">official_name for NER</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="270" approved="yes">
+        <source>Nigeria</source>
+        <target state="translated">奈及利亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NGA</context>
+        </context-group>
+        <note from="developer">name for NGA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="271" approved="yes">
+        <source>Federal Republic of Nigeria</source>
+        <target state="translated">奈及利亞聯邦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NGA</context>
+        </context-group>
+        <note from="developer">official_name for NGA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="272" approved="yes">
+        <source>Niue</source>
+        <target state="translated">紐埃</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NIU, official_name for NIU</context>
+        </context-group>
+        <note from="developer">name for NIU, official_name for NIU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="273" approved="yes">
+        <source>Norfolk Island</source>
+        <target state="translated">諾福克島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NFK</context>
+        </context-group>
+        <note from="developer">name for NFK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="274" approved="yes">
+        <source>Northern Mariana Islands</source>
+        <target state="translated">北馬里亞納群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MNP</context>
+        </context-group>
+        <note from="developer">name for MNP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="275" approved="yes">
+        <source>Commonwealth of the Northern Mariana Islands</source>
+        <target state="translated">北馬里亞納群島國協</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for MNP</context>
+        </context-group>
+        <note from="developer">official_name for MNP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="276" approved="yes">
+        <source>Norway</source>
+        <target state="translated">挪威</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for NOR</context>
+        </context-group>
+        <note from="developer">name for NOR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="277" approved="yes">
+        <source>Kingdom of Norway</source>
+        <target state="translated">挪威王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for NOR</context>
+        </context-group>
+        <note from="developer">official_name for NOR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="278" approved="yes">
+        <source>Oman</source>
+        <target state="translated">阿曼</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for OMN</context>
+        </context-group>
+        <note from="developer">name for OMN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="279" approved="yes">
+        <source>Sultanate of Oman</source>
+        <target state="translated">阿曼蘇丹國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for OMN</context>
+        </context-group>
+        <note from="developer">official_name for OMN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="280" approved="yes">
+        <source>Pakistan</source>
+        <target state="translated">巴基斯坦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PAK</context>
+        </context-group>
+        <note from="developer">name for PAK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="281" approved="yes">
+        <source>Islamic Republic of Pakistan</source>
+        <target state="translated">巴基斯坦伊斯蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PAK</context>
+        </context-group>
+        <note from="developer">official_name for PAK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="282" approved="yes">
+        <source>Palau</source>
+        <target state="translated">帛琉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PLW</context>
+        </context-group>
+        <note from="developer">name for PLW</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="283" approved="yes">
+        <source>Republic of Palau</source>
+        <target state="translated">帛琉共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PLW</context>
+        </context-group>
+        <note from="developer">official_name for PLW</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="284" approved="yes">
+        <source>Palestinian Territory, Occupied</source>
+        <target state="translated">巴勒斯坦佔領區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PSE</context>
+        </context-group>
+        <note from="developer">name for PSE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="285" approved="yes">
+        <source>Occupied Palestinian Territory</source>
+        <target state="translated">巴勒斯坦佔領區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PSE</context>
+        </context-group>
+        <note from="developer">official_name for PSE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="286" approved="yes">
+        <source>Panama</source>
+        <target state="translated">巴拿馬</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PAN</context>
+        </context-group>
+        <note from="developer">name for PAN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="287" approved="yes">
+        <source>Republic of Panama</source>
+        <target state="translated">巴拿馬共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PAN</context>
+        </context-group>
+        <note from="developer">official_name for PAN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="288" approved="yes">
+        <source>Papua New Guinea</source>
+        <target state="translated">巴布亞紐幾內亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PNG</context>
+        </context-group>
+        <note from="developer">name for PNG</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="289" approved="yes">
+        <source>Paraguay</source>
+        <target state="translated">巴拉圭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PRY</context>
+        </context-group>
+        <note from="developer">name for PRY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="290" approved="yes">
+        <source>Republic of Paraguay</source>
+        <target state="translated">巴拉圭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PRY</context>
+        </context-group>
+        <note from="developer">official_name for PRY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="291" approved="yes">
+        <source>Peru</source>
+        <target state="translated">祕魯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PER</context>
+        </context-group>
+        <note from="developer">name for PER</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="292" approved="yes">
+        <source>Republic of Peru</source>
+        <target state="translated">祕魯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PER</context>
+        </context-group>
+        <note from="developer">official_name for PER</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="293" approved="yes">
+        <source>Philippines</source>
+        <target state="translated">菲律賓</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PHL</context>
+        </context-group>
+        <note from="developer">name for PHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="294" approved="yes">
+        <source>Republic of the Philippines</source>
+        <target state="translated">菲律賓共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PHL</context>
+        </context-group>
+        <note from="developer">official_name for PHL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="295" approved="yes">
+        <source>Pitcairn</source>
+        <target state="translated">皮特肯島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PCN</context>
+        </context-group>
+        <note from="developer">name for PCN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="296" approved="yes">
+        <source>Poland</source>
+        <target state="translated">波蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for POL</context>
+        </context-group>
+        <note from="developer">name for POL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="297" approved="yes">
+        <source>Republic of Poland</source>
+        <target state="translated">波蘭共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for POL</context>
+        </context-group>
+        <note from="developer">official_name for POL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="298" approved="yes">
+        <source>Portugal</source>
+        <target state="translated">葡萄牙</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PRT</context>
+        </context-group>
+        <note from="developer">name for PRT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="299" approved="yes">
+        <source>Portuguese Republic</source>
+        <target state="translated">葡萄牙共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for PRT</context>
+        </context-group>
+        <note from="developer">official_name for PRT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="300" approved="yes">
+        <source>Puerto Rico</source>
+        <target state="translated">波多黎各</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for PRI</context>
+        </context-group>
+        <note from="developer">name for PRI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="301" approved="yes">
+        <source>Qatar</source>
+        <target state="translated">卡達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for QAT</context>
+        </context-group>
+        <note from="developer">name for QAT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="302" approved="yes">
+        <source>State of Qatar</source>
+        <target state="translated">卡達國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for QAT</context>
+        </context-group>
+        <note from="developer">official_name for QAT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="303" approved="yes">
+        <source>Réunion</source>
+        <target state="translated">留尼旺島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for REU</context>
+        </context-group>
+        <note from="developer">name for REU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="304" approved="yes">
+        <source>Romania</source>
+        <target state="translated">羅馬尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ROU</context>
+        </context-group>
+        <note from="developer">name for ROU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="305" approved="yes">
+        <source>Russian Federation</source>
+        <target state="translated">俄羅斯聯邦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for RUS</context>
+        </context-group>
+        <note from="developer">name for RUS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="306" approved="yes">
+        <source>Rwanda</source>
+        <target state="translated">盧安達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for RWA</context>
+        </context-group>
+        <note from="developer">name for RWA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="307" approved="yes">
+        <source>Rwandese Republic</source>
+        <target state="translated">盧安達共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for RWA</context>
+        </context-group>
+        <note from="developer">official_name for RWA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="308" approved="yes">
+        <source>Saint Barthélemy</source>
+        <target state="translated">聖巴瑟米</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for BLM</context>
+        </context-group>
+        <note from="developer">name for BLM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="309" approved="yes">
+        <source>Saint Helena, Ascension and Tristan da Cunha</source>
+        <target state="translated">聖赫倫那島、阿森松島及崔斯坦達庫尼亞群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SHN</context>
+        </context-group>
+        <note from="developer">name for SHN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="310" approved="yes">
+        <source>Saint Kitts and Nevis</source>
+        <target state="translated">聖克里斯多福及尼維斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for KNA</context>
+        </context-group>
+        <note from="developer">name for KNA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="311" approved="yes">
+        <source>Saint Lucia</source>
+        <target state="translated">聖露西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LCA</context>
+        </context-group>
+        <note from="developer">name for LCA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="312" approved="yes">
+        <source>Saint Martin (French part)</source>
+        <target state="translated">聖馬丁 (法屬)</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for MAF</context>
+        </context-group>
+        <note from="developer">name for MAF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="313" approved="yes">
+        <source>Saint Pierre and Miquelon</source>
+        <target state="translated">聖皮耶及密克隆群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SPM</context>
+        </context-group>
+        <note from="developer">name for SPM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="314" approved="yes">
+        <source>Saint Vincent and the Grenadines</source>
+        <target state="translated">聖文森及格瑞納丁</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VCT</context>
+        </context-group>
+        <note from="developer">name for VCT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="315" approved="yes">
+        <source>Samoa</source>
+        <target state="translated">薩摩亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for WSM</context>
+        </context-group>
+        <note from="developer">name for WSM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="316" approved="yes">
+        <source>Independent State of Samoa</source>
+        <target state="translated">薩摩亞獨立國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for WSM</context>
+        </context-group>
+        <note from="developer">official_name for WSM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="317" approved="yes">
+        <source>San Marino</source>
+        <target state="translated">聖馬利諾</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SMR</context>
+        </context-group>
+        <note from="developer">name for SMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="318" approved="yes">
+        <source>Republic of San Marino</source>
+        <target state="translated">聖馬利諾共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SMR</context>
+        </context-group>
+        <note from="developer">official_name for SMR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="319" approved="yes">
+        <source>Sao Tome and Principe</source>
+        <target state="translated">聖多美及普林西比</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for STP</context>
+        </context-group>
+        <note from="developer">name for STP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="320" approved="yes">
+        <source>Democratic Republic of Sao Tome and Principe</source>
+        <target state="translated">聖多美及普林西比民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for STP</context>
+        </context-group>
+        <note from="developer">official_name for STP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="321" approved="yes">
+        <source>Saudi Arabia</source>
+        <target state="translated">沙烏地阿拉伯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SAU</context>
+        </context-group>
+        <note from="developer">name for SAU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="322" approved="yes">
+        <source>Kingdom of Saudi Arabia</source>
+        <target state="translated">沙烏地阿拉伯王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SAU</context>
+        </context-group>
+        <note from="developer">official_name for SAU</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="323" approved="yes">
+        <source>Senegal</source>
+        <target state="translated">塞內加爾</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SEN</context>
+        </context-group>
+        <note from="developer">name for SEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="324" approved="yes">
+        <source>Republic of Senegal</source>
+        <target state="translated">塞內加爾共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SEN</context>
+        </context-group>
+        <note from="developer">official_name for SEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="325" approved="yes">
+        <source>Serbia</source>
+        <target state="translated">塞爾維亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SRB</context>
+        </context-group>
+        <note from="developer">name for SRB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="326" approved="yes">
+        <source>Republic of Serbia</source>
+        <target state="translated">塞爾維亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SRB</context>
+        </context-group>
+        <note from="developer">official_name for SRB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="327" approved="yes">
+        <source>Seychelles</source>
+        <target state="translated">塞席爾</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SYC</context>
+        </context-group>
+        <note from="developer">name for SYC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="328" approved="yes">
+        <source>Republic of Seychelles</source>
+        <target state="translated">塞席爾共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SYC</context>
+        </context-group>
+        <note from="developer">official_name for SYC</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="329" approved="yes">
+        <source>Sierra Leone</source>
+        <target state="translated">獅子山</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SLE</context>
+        </context-group>
+        <note from="developer">name for SLE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="330" approved="yes">
+        <source>Republic of Sierra Leone</source>
+        <target state="translated">獅子山共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SLE</context>
+        </context-group>
+        <note from="developer">official_name for SLE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="331" approved="yes">
+        <source>Singapore</source>
+        <target state="translated">新加坡</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SGP</context>
+        </context-group>
+        <note from="developer">name for SGP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="332" approved="yes">
+        <source>Republic of Singapore</source>
+        <target state="translated">新加坡共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SGP</context>
+        </context-group>
+        <note from="developer">official_name for SGP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="333" approved="yes">
+        <source>Sint Maarten (Dutch part)</source>
+        <target state="translated">聖馬丁 (荷屬)</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SXM, official_name for SXM</context>
+        </context-group>
+        <note from="developer">name for SXM, official_name for SXM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="334" approved="yes">
+        <source>Slovakia</source>
+        <target state="translated">斯洛伐克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SVK</context>
+        </context-group>
+        <note from="developer">name for SVK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="335" approved="yes">
+        <source>Slovak Republic</source>
+        <target state="translated">斯洛伐克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SVK</context>
+        </context-group>
+        <note from="developer">official_name for SVK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="336" approved="yes">
+        <source>Slovenia</source>
+        <target state="translated">斯洛維尼亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SVN</context>
+        </context-group>
+        <note from="developer">name for SVN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="337" approved="yes">
+        <source>Republic of Slovenia</source>
+        <target state="translated">斯洛維尼亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SVN</context>
+        </context-group>
+        <note from="developer">official_name for SVN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="338" approved="yes">
+        <source>Solomon Islands</source>
+        <target state="translated">索羅門群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SLB</context>
+        </context-group>
+        <note from="developer">name for SLB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="339" approved="yes">
+        <source>Somalia</source>
+        <target state="translated">索馬利亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SOM</context>
+        </context-group>
+        <note from="developer">name for SOM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="340" approved="yes">
+        <source>Somali Republic</source>
+        <target state="translated">索馬利亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SOM</context>
+        </context-group>
+        <note from="developer">official_name for SOM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="341" approved="yes">
+        <source>South Africa</source>
+        <target state="translated">南非</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ZAF</context>
+        </context-group>
+        <note from="developer">name for ZAF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="342" approved="yes">
+        <source>Republic of South Africa</source>
+        <target state="translated">南非共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ZAF</context>
+        </context-group>
+        <note from="developer">official_name for ZAF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="343" approved="yes">
+        <source>South Georgia and the South Sandwich Islands</source>
+        <target state="translated">南喬治亞及南三明治群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SGS</context>
+        </context-group>
+        <note from="developer">name for SGS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="344" approved="yes">
+        <source>Spain</source>
+        <target state="translated">西班牙</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ESP</context>
+        </context-group>
+        <note from="developer">name for ESP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="345" approved="yes">
+        <source>Kingdom of Spain</source>
+        <target state="translated">西班牙王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ESP</context>
+        </context-group>
+        <note from="developer">official_name for ESP</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="346" approved="yes">
+        <source>Sri Lanka</source>
+        <target state="translated">斯里蘭卡</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for LKA</context>
+        </context-group>
+        <note from="developer">name for LKA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="347" approved="yes">
+        <source>Democratic Socialist Republic of Sri Lanka</source>
+        <target state="translated">斯里蘭卡民主社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for LKA</context>
+        </context-group>
+        <note from="developer">official_name for LKA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="348" approved="yes">
+        <source>Sudan</source>
+        <target state="translated">蘇丹</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SDN</context>
+        </context-group>
+        <note from="developer">name for SDN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="349" approved="yes">
+        <source>Republic of the Sudan</source>
+        <target state="translated">蘇丹共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SDN</context>
+        </context-group>
+        <note from="developer">official_name for SDN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="350" approved="yes">
+        <source>Suriname</source>
+        <target state="translated">蘇利南</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SUR</context>
+        </context-group>
+        <note from="developer">name for SUR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="351" approved="yes">
+        <source>Republic of Suriname</source>
+        <target state="translated">蘇利南共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SUR</context>
+        </context-group>
+        <note from="developer">official_name for SUR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="352" approved="yes">
+        <source>South Sudan</source>
+        <target state="translated">南蘇丹</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SSD</context>
+        </context-group>
+        <note from="developer">name for SSD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="353" approved="yes">
+        <source>Republic of South Sudan</source>
+        <target state="translated">南蘇丹共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SSD</context>
+        </context-group>
+        <note from="developer">official_name for SSD</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="354" approved="yes">
+        <source>Svalbard and Jan Mayen</source>
+        <target state="translated">冷岸群島及央棉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SJM</context>
+        </context-group>
+        <note from="developer">name for SJM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="355" approved="yes">
+        <source>Swaziland</source>
+        <target state="translated">史瓦濟蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SWZ</context>
+        </context-group>
+        <note from="developer">name for SWZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="356" approved="yes">
+        <source>Kingdom of Swaziland</source>
+        <target state="translated">史瓦濟蘭王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SWZ</context>
+        </context-group>
+        <note from="developer">official_name for SWZ</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="357" approved="yes">
+        <source>Sweden</source>
+        <target state="translated">瑞典</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SWE</context>
+        </context-group>
+        <note from="developer">name for SWE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="358" approved="yes">
+        <source>Kingdom of Sweden</source>
+        <target state="translated">瑞典王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for SWE</context>
+        </context-group>
+        <note from="developer">official_name for SWE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="359" approved="yes">
+        <source>Switzerland</source>
+        <target state="translated">瑞士</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for CHE</context>
+        </context-group>
+        <note from="developer">name for CHE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="360" approved="yes">
+        <source>Swiss Confederation</source>
+        <target state="translated">瑞士邦聯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for CHE</context>
+        </context-group>
+        <note from="developer">official_name for CHE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="361" approved="yes">
+        <source>Syrian Arab Republic</source>
+        <target state="translated">敘利亞阿拉伯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for SYR</context>
+        </context-group>
+        <note from="developer">name for SYR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="362" approved="yes">
+        <source>Taiwan, Province of China</source>
+        <target state="translated">中華民國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TWN, official_name for TWN</context>
+        </context-group>
+        <note from="developer">name for TWN, official_name for TWN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="363" approved="yes">
+        <source>Taiwan</source>
+        <target state="translated">臺灣</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">common_name for TWN</context>
+        </context-group>
+        <note from="developer">common_name for TWN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="364" approved="yes">
+        <source>Tajikistan</source>
+        <target state="translated">塔吉克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TJK</context>
+        </context-group>
+        <note from="developer">name for TJK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="365" approved="yes">
+        <source>Republic of Tajikistan</source>
+        <target state="translated">塔吉克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TJK</context>
+        </context-group>
+        <note from="developer">official_name for TJK</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="366" approved="yes">
+        <source>Tanzania, United Republic of</source>
+        <target state="translated">坦尚尼亞聯合共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TZA</context>
+        </context-group>
+        <note from="developer">name for TZA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="367" approved="yes">
+        <source>United Republic of Tanzania</source>
+        <target state="translated">坦尚尼亞聯合共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TZA</context>
+        </context-group>
+        <note from="developer">official_name for TZA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="368" approved="yes">
+        <source>Thailand</source>
+        <target state="translated">泰國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for THA</context>
+        </context-group>
+        <note from="developer">name for THA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="369" approved="yes">
+        <source>Kingdom of Thailand</source>
+        <target state="translated">泰王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for THA</context>
+        </context-group>
+        <note from="developer">official_name for THA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="370" approved="yes">
+        <source>Timor-Leste</source>
+        <target state="translated">東帝汶</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TLS</context>
+        </context-group>
+        <note from="developer">name for TLS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="371" approved="yes">
+        <source>Democratic Republic of Timor-Leste</source>
+        <target state="translated">東帝汶民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TLS</context>
+        </context-group>
+        <note from="developer">official_name for TLS</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="372" approved="yes">
+        <source>Togo</source>
+        <target state="translated">多哥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TGO</context>
+        </context-group>
+        <note from="developer">name for TGO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="373" approved="yes">
+        <source>Togolese Republic</source>
+        <target state="translated">多哥共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TGO</context>
+        </context-group>
+        <note from="developer">official_name for TGO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="374" approved="yes">
+        <source>Tokelau</source>
+        <target state="translated">托克勞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TKL</context>
+        </context-group>
+        <note from="developer">name for TKL</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="375" approved="yes">
+        <source>Tonga</source>
+        <target state="translated">東加</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TON</context>
+        </context-group>
+        <note from="developer">name for TON</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="376" approved="yes">
+        <source>Kingdom of Tonga</source>
+        <target state="translated">東加王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TON</context>
+        </context-group>
+        <note from="developer">official_name for TON</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="377" approved="yes">
+        <source>Trinidad and Tobago</source>
+        <target state="translated">千里達及托巴哥</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TTO</context>
+        </context-group>
+        <note from="developer">name for TTO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="378" approved="yes">
+        <source>Republic of Trinidad and Tobago</source>
+        <target state="translated">千里達及托巴哥共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TTO</context>
+        </context-group>
+        <note from="developer">official_name for TTO</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="379" approved="yes">
+        <source>Tunisia</source>
+        <target state="translated">突尼西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TUN</context>
+        </context-group>
+        <note from="developer">name for TUN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="380" approved="yes">
+        <source>Republic of Tunisia</source>
+        <target state="translated">突尼西亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TUN</context>
+        </context-group>
+        <note from="developer">official_name for TUN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="381" approved="yes">
+        <source>Turkey</source>
+        <target state="translated">土耳其</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TUR</context>
+        </context-group>
+        <note from="developer">name for TUR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="382" approved="yes">
+        <source>Republic of Turkey</source>
+        <target state="translated">土耳其共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for TUR</context>
+        </context-group>
+        <note from="developer">official_name for TUR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="383" approved="yes">
+        <source>Turkmenistan</source>
+        <target state="translated">土庫曼</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TKM</context>
+        </context-group>
+        <note from="developer">name for TKM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="384" approved="yes">
+        <source>Turks and Caicos Islands</source>
+        <target state="translated">土克凱可群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TCA</context>
+        </context-group>
+        <note from="developer">name for TCA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="385" approved="yes">
+        <source>Tuvalu</source>
+        <target state="translated">吐瓦魯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for TUV</context>
+        </context-group>
+        <note from="developer">name for TUV</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="386" approved="yes">
+        <source>Uganda</source>
+        <target state="translated">烏干達</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for UGA</context>
+        </context-group>
+        <note from="developer">name for UGA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="387" approved="yes">
+        <source>Republic of Uganda</source>
+        <target state="translated">烏干達共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for UGA</context>
+        </context-group>
+        <note from="developer">official_name for UGA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="388" approved="yes">
+        <source>Ukraine</source>
+        <target state="translated">烏克蘭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for UKR</context>
+        </context-group>
+        <note from="developer">name for UKR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="389" approved="yes">
+        <source>United Arab Emirates</source>
+        <target state="translated">阿拉伯聯合大公國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ARE</context>
+        </context-group>
+        <note from="developer">name for ARE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="390" approved="yes">
+        <source>United Kingdom</source>
+        <target state="translated">英國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for GBR</context>
+        </context-group>
+        <note from="developer">name for GBR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="391" approved="yes">
+        <source>United Kingdom of Great Britain and Northern Ireland</source>
+        <target state="translated">大不列顛及北愛爾蘭聯合王國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for GBR</context>
+        </context-group>
+        <note from="developer">official_name for GBR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="392" approved="yes">
+        <source>United States</source>
+        <target state="translated">美國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for USA</context>
+        </context-group>
+        <note from="developer">name for USA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="393" approved="yes">
+        <source>United States of America</source>
+        <target state="translated">美利堅合眾國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for USA</context>
+        </context-group>
+        <note from="developer">official_name for USA</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="394" approved="yes">
+        <source>United States Minor Outlying Islands</source>
+        <target state="translated">美屬邊疆群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for UMI</context>
+        </context-group>
+        <note from="developer">name for UMI</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="395" approved="yes">
+        <source>Uruguay</source>
+        <target state="translated">烏拉圭</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for URY</context>
+        </context-group>
+        <note from="developer">name for URY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="396" approved="yes">
+        <source>Eastern Republic of Uruguay</source>
+        <target state="translated">烏拉圭東共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for URY</context>
+        </context-group>
+        <note from="developer">official_name for URY</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="397" approved="yes">
+        <source>Uzbekistan</source>
+        <target state="translated">烏茲別克</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for UZB</context>
+        </context-group>
+        <note from="developer">name for UZB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="398" approved="yes">
+        <source>Republic of Uzbekistan</source>
+        <target state="translated">烏茲別克共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for UZB</context>
+        </context-group>
+        <note from="developer">official_name for UZB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="399" approved="yes">
+        <source>Vanuatu</source>
+        <target state="translated">萬那杜</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VUT</context>
+        </context-group>
+        <note from="developer">name for VUT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="400" approved="yes">
+        <source>Republic of Vanuatu</source>
+        <target state="translated">萬那杜共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for VUT</context>
+        </context-group>
+        <note from="developer">official_name for VUT</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="401" approved="yes">
+        <source>Venezuela, Bolivarian Republic of</source>
+        <target state="translated">委內瑞拉玻利瓦爾共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VEN</context>
+        </context-group>
+        <note from="developer">name for VEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="402" approved="yes">
+        <source>Bolivarian Republic of Venezuela</source>
+        <target state="translated">委內瑞拉玻利瓦爾共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for VEN</context>
+        </context-group>
+        <note from="developer">official_name for VEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="403" approved="yes">
+        <source>Venezuela</source>
+        <target state="translated">委內瑞拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">common_name for VEN</context>
+        </context-group>
+        <note from="developer">common_name for VEN</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="404" approved="yes">
+        <source>Viet Nam</source>
+        <target state="translated">越南</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VNM</context>
+        </context-group>
+        <note from="developer">name for VNM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="405" approved="yes">
+        <source>Socialist Republic of Viet Nam</source>
+        <target state="translated">越南社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for VNM</context>
+        </context-group>
+        <note from="developer">official_name for VNM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="406" approved="yes">
+        <source>Virgin Islands, British</source>
+        <target state="translated">英屬維京群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VGB</context>
+        </context-group>
+        <note from="developer">name for VGB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="407" approved="yes">
+        <source>British Virgin Islands</source>
+        <target state="translated">英屬維京群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for VGB</context>
+        </context-group>
+        <note from="developer">official_name for VGB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="408" approved="yes">
+        <source>Virgin Islands, U.S.</source>
+        <target state="translated">美屬維京群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for VIR</context>
+        </context-group>
+        <note from="developer">name for VIR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="409" approved="yes">
+        <source>Virgin Islands of the United States</source>
+        <target state="translated">美屬維京群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for VIR</context>
+        </context-group>
+        <note from="developer">official_name for VIR</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="410" approved="yes">
+        <source>Wallis and Futuna</source>
+        <target state="translated">沃里斯及伏塔那群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for WLF</context>
+        </context-group>
+        <note from="developer">name for WLF</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="411" approved="yes">
+        <source>Western Sahara</source>
+        <target state="translated">西撒哈拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ESH</context>
+        </context-group>
+        <note from="developer">name for ESH</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="412" approved="yes">
+        <source>Yemen</source>
+        <target state="translated">葉門</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for YEM</context>
+        </context-group>
+        <note from="developer">name for YEM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="413" approved="yes">
+        <source>Republic of Yemen</source>
+        <target state="translated">葉門共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for YEM</context>
+        </context-group>
+        <note from="developer">official_name for YEM</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="414" approved="yes">
+        <source>Zambia</source>
+        <target state="translated">尚比亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ZMB</context>
+        </context-group>
+        <note from="developer">name for ZMB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="415" approved="yes">
+        <source>Republic of Zambia</source>
+        <target state="translated">尚比亞共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ZMB</context>
+        </context-group>
+        <note from="developer">official_name for ZMB</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="416" approved="yes">
+        <source>Zimbabwe</source>
+        <target state="translated">辛巴威</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">name for ZWE</context>
+        </context-group>
+        <note from="developer">name for ZWE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="417" approved="yes">
+        <source>Republic of Zimbabwe</source>
+        <target state="translated">辛巴威共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">official_name for ZWE</context>
+        </context-group>
+        <note from="developer">official_name for ZWE</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="418" approved="yes">
+        <source>British Antarctic Territory</source>
+        <target state="translated">英屬南極洲領地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ATB (withdrawn 1979)</context>
+        </context-group>
+        <note from="developer">historic names for ATB (withdrawn 1979)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="419" approved="yes">
+        <source>Burma, Socialist Republic of the Union of</source>
+        <target state="translated">緬甸聯邦社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for BUR (withdrawn 1989-12-05)</context>
+        </context-group>
+        <note from="developer">historic names for BUR (withdrawn 1989-12-05)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="420" approved="yes">
+        <source>Byelorussian SSR Soviet Socialist Republic</source>
+        <target state="translated">白俄羅斯蘇維埃社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for BYS (withdrawn 1992-06-15)</context>
+        </context-group>
+        <note from="developer">historic names for BYS (withdrawn 1992-06-15)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="421" approved="yes">
+        <source>Canton and Enderbury Islands</source>
+        <target state="translated">坎呑及恩得伯利群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for CTE (withdrawn 1984)</context>
+        </context-group>
+        <note from="developer">historic names for CTE (withdrawn 1984)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="422" approved="yes">
+        <source>Czechoslovakia, Czechoslovak Socialist Republic</source>
+        <target state="translated">捷克斯洛伐克社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for CSK (withdrawn 1993-06-15)</context>
+        </context-group>
+        <note from="developer">historic names for CSK (withdrawn 1993-06-15)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="423" approved="yes">
+        <source>Dahomey</source>
+        <target state="translated">達荷美</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for DHY (withdrawn 1977)</context>
+        </context-group>
+        <note from="developer">historic names for DHY (withdrawn 1977)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="424" approved="yes">
+        <source>Dronning Maud Land</source>
+        <target state="translated">毛德皇后地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ATN (withdrawn 1983)</context>
+        </context-group>
+        <note from="developer">historic names for ATN (withdrawn 1983)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="425" approved="yes">
+        <source>East Timor</source>
+        <target state="translated">東帝汶</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for TMP (withdrawn 2002-05-20)</context>
+        </context-group>
+        <note from="developer">historic names for TMP (withdrawn 2002-05-20)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="426" approved="yes">
+        <source>France, Metropolitan</source>
+        <target state="translated">法蘭西都會行政區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for FXX (withdrawn 1997-07-14)</context>
+        </context-group>
+        <note from="developer">historic names for FXX (withdrawn 1997-07-14)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="427" approved="yes">
+        <source>French Afars and Issas</source>
+        <target state="translated">法屬阿法爾及伊薩</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for AFI (withdrawn 1977)</context>
+        </context-group>
+        <note from="developer">historic names for AFI (withdrawn 1977)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="428" approved="yes">
+        <source>French Southern and Antarctic Territories</source>
+        <target state="translated">法屬南方及南極領地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ATF (withdrawn 1979)</context>
+        </context-group>
+        <note from="developer">historic names for ATF (withdrawn 1979)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="429" approved="yes">
+        <source>German Democratic Republic</source>
+        <target state="translated">德意志民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for DDR (withdrawn 1990-10-30)</context>
+        </context-group>
+        <note from="developer">historic names for DDR (withdrawn 1990-10-30)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="430" approved="yes">
+        <source>Germany, Federal Republic of</source>
+        <target state="translated">德意志聯邦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for DEU (withdrawn 1990-10-30)</context>
+        </context-group>
+        <note from="developer">historic names for DEU (withdrawn 1990-10-30)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="431" approved="yes">
+        <source>Gilbert and Ellice Islands</source>
+        <target state="translated">吉爾柏特及埃里斯群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for GEL (withdrawn 1979)</context>
+        </context-group>
+        <note from="developer">historic names for GEL (withdrawn 1979)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="432" approved="yes">
+        <source>Johnston Island</source>
+        <target state="translated">約翰斯頓島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for JTN (withdrawn 1986)</context>
+        </context-group>
+        <note from="developer">historic names for JTN (withdrawn 1986)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="433" approved="yes">
+        <source>Midway Islands</source>
+        <target state="translated">中途群島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for MID (withdrawn 1986)</context>
+        </context-group>
+        <note from="developer">historic names for MID (withdrawn 1986)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="434" approved="yes">
+        <source>Netherlands Antilles</source>
+        <target state="translated">荷屬安地列斯</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ANT (withdrawn 1993-07-12)</context>
+        </context-group>
+        <note from="developer">historic names for ANT (withdrawn 1993-07-12)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="435" approved="yes">
+        <source>Neutral Zone</source>
+        <target state="translated">中立區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for NTZ (withdrawn 1993-07-12)</context>
+        </context-group>
+        <note from="developer">historic names for NTZ (withdrawn 1993-07-12)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="436" approved="yes">
+        <source>New Hebrides</source>
+        <target state="translated">新赫布里</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for NHB (withdrawn 1980)</context>
+        </context-group>
+        <note from="developer">historic names for NHB (withdrawn 1980)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="437" approved="yes">
+        <source>Pacific Islands (trust territory)</source>
+        <target state="translated">太平洋島嶼託管地</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for PCI (withdrawn 1986)</context>
+        </context-group>
+        <note from="developer">historic names for PCI (withdrawn 1986)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="438" approved="yes">
+        <source>Panama, Republic of</source>
+        <target state="translated">巴拿馬共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for PAN (withdrawn 1993-07-22)</context>
+        </context-group>
+        <note from="developer">historic names for PAN (withdrawn 1993-07-22)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="439" approved="yes">
+        <source>Panama Canal Zone</source>
+        <target state="translated">巴拿馬運河區</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for PCZ (withdrawn 1980)</context>
+        </context-group>
+        <note from="developer">historic names for PCZ (withdrawn 1980)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="440" approved="yes">
+        <source>Romania, Socialist Republic of</source>
+        <target state="translated">羅馬尼亞社會主義共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ROM (withdrawn 2002-02-01)</context>
+        </context-group>
+        <note from="developer">historic names for ROM (withdrawn 2002-02-01)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="441" approved="yes">
+        <source>St. Kitts-Nevis-Anguilla</source>
+        <target state="translated">聖基茨－尼維斯－安圭拉島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for KNA (withdrawn 1988)</context>
+        </context-group>
+        <note from="developer">historic names for KNA (withdrawn 1988)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="442" approved="yes">
+        <source>Serbia and Montenegro</source>
+        <target state="translated">塞爾維亞及蒙特內哥羅</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for SCG (withdrawn 2006-06-05)</context>
+        </context-group>
+        <note from="developer">historic names for SCG (withdrawn 2006-06-05)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="443" approved="yes">
+        <source>Sikkim</source>
+        <target state="translated">錫金</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for SKM (withdrawn 1975)</context>
+        </context-group>
+        <note from="developer">historic names for SKM (withdrawn 1975)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="444" approved="yes">
+        <source>Southern Rhodesia</source>
+        <target state="translated">南羅得西亞</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for RHO (withdrawn 1980)</context>
+        </context-group>
+        <note from="developer">historic names for RHO (withdrawn 1980)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="445" approved="yes">
+        <source>Spanish Sahara</source>
+        <target state="translated">西屬撒哈拉</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ESH (withdrawn 1988)</context>
+        </context-group>
+        <note from="developer">historic names for ESH (withdrawn 1988)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="446" approved="yes">
+        <source>US Miscellaneous Pacific Islands</source>
+        <target state="translated">美屬太平洋諸島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for PUS (withdrawn 1986)</context>
+        </context-group>
+        <note from="developer">historic names for PUS (withdrawn 1986)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="447" approved="yes">
+        <source>USSR, Union of Soviet Socialist Republics</source>
+        <target state="translated">蘇維埃社會主義共和國聯邦</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for SUN (withdrawn 1992-08-30)</context>
+        </context-group>
+        <note from="developer">historic names for SUN (withdrawn 1992-08-30)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="448" approved="yes">
+        <source>Upper Volta, Republic of</source>
+        <target state="translated">上沃爾特共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for HVO (withdrawn 1984)</context>
+        </context-group>
+        <note from="developer">historic names for HVO (withdrawn 1984)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="449" approved="yes">
+        <source>Vatican City State (Holy See)</source>
+        <target state="translated">梵蒂岡城國 (教廷)</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for VAT (withdrawn 1996-04-03)</context>
+        </context-group>
+        <note from="developer">historic names for VAT (withdrawn 1996-04-03)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="450" approved="yes">
+        <source>Viet-Nam, Democratic Republic of</source>
+        <target state="translated">越南民主共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for VDR (withdrawn 1977)</context>
+        </context-group>
+        <note from="developer">historic names for VDR (withdrawn 1977)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="451" approved="yes">
+        <source>Wake Island</source>
+        <target state="translated">威克島</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for WAK (withdrawn 1986)</context>
+        </context-group>
+        <note from="developer">historic names for WAK (withdrawn 1986)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="452" approved="yes">
+        <source>Yemen, Democratic, People's Democratic Republic of</source>
+        <target state="translated">葉門民主人民共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for YMD (withdrawn 1990-08-14)</context>
+        </context-group>
+        <note from="developer">historic names for YMD (withdrawn 1990-08-14)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="453" approved="yes">
+        <source>Yemen, Yemen Arab Republic</source>
+        <target state="translated">葉門阿拉伯共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for YEM (withdrawn 1990-08-14)</context>
+        </context-group>
+        <note from="developer">historic names for YEM (withdrawn 1990-08-14)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="454" approved="yes">
+        <source>Yugoslavia, Socialist Federal Republic of</source>
+        <target state="translated">南斯拉夫社會主義聯邦共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for YUG (withdrawn 1993-07-28)</context>
+        </context-group>
+        <note from="developer">historic names for YUG (withdrawn 1993-07-28)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="455" approved="yes">
+        <source>Zaire, Republic of</source>
+        <target state="translated">薩伊共和國</target>
+        <context-group name="po-entry" purpose="information">
+          <context context-type="x-po-autocomment">historic names for ZAR (withdrawn 1997-07-14)</context>
+        </context-group>
+        <note from="developer">historic names for ZAR (withdrawn 1997-07-14)</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

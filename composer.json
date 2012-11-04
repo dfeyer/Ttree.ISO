@@ -1,0 +1,13 @@
+{
+	"name": "ttree/iso",
+	"type": "typo3-flow-package",
+	"description": "TYPO3 Flow package to manager ISO3166 and ISO639_3",
+	"require": {
+		"typo3/flow": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Ttree\\ISO": "Classes"
+		}
+	}
+}
