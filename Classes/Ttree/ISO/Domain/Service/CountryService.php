@@ -15,6 +15,18 @@ class CountryService {
 
 	/**
 	 * @Flow\Inject
+	 * @var \TYPO3\Flow\I18n\Translator
+	 */
+	protected $translator;
+
+	/**
+	 * @Flow\Inject
+	 * @var \TYPO3\Flow\I18n\Service
+	 */
+	protected $localizationService;
+
+	/**
+	 * @Flow\Inject
 	 * @var \TYPO3\Flow\Property\PropertyMapper
 	 */
 	protected $propertyMapper;
@@ -36,6 +48,28 @@ class CountryService {
 	 * @var \TYPO3\Flow\Persistence\Doctrine\PersistenceManager
 	 */
 	protected $persistenceManager;
+
+	/**
+	 * Prepare a localized options list as array
+	 *
+	 * @return array  an associative array of options, key will be the value of the option tag
+	 */
+	public function prepareLocalizedOptionsList() {
+		$options = array('' => '');
+
+		$countries = $this->countryRepository->findAll();
+		foreach ($countries as $country) {
+			$label = $country->getName();
+			$locale = $this->localizationService->getConfiguration()->getCurrentLocale();
+			if ($locale->getLanguage() !== 'en') {
+				$label = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Countries', 'Ttree.ISO');
+			}
+			$identifier = $this->persistenceManager->getIdentifierByObject($country);
+			$options[$identifier] = $label;
+		}
+
+		return $options;
+	}
 
 	/**
 	 * @param array $data

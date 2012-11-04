@@ -21,12 +21,6 @@ use TYPO3\Flow\Annotations as Flow;
 class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractFormFieldViewHelper {
 
 	/**
-	 * @Flow\Inject
-	 * @var \TYPO3\Flow\I18n\Translator
-	 */
-	protected $translator;
-
-	/**
 	 * @var string
 	 */
 	protected $tagName = 'select';
@@ -41,6 +35,12 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 	 * @var \Ttree\ISO\Domain\Repository\CountryRepository
 	 */
 	protected $countryRepository;
+
+	/**
+	 * @Flow\Inject
+	 * @var \Ttree\ISO\Domain\Service\CountryService
+	 */
+	protected $countryService;
 
 	/**
 	 * Initialize arguments.
@@ -71,7 +71,7 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 
 		$this->tag->addAttribute('name', $name);
 
-		$options = $this->getOptions();
+		$options = $this->countryService->prepareLocalizedOptionsList();
 		if (empty($options)) {
 			$options = array('' => '');
 		}
@@ -107,29 +107,6 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 			$output .= $this->renderOptionTag($value, $label) . chr(10);
 		}
 		return $output;
-	}
-
-	/**
-	 * Render the option tags.
-	 *
-	 * @return array an associative array of options, key will be the value of the option tag
-	 * @throws \TYPO3\Fluid\Core\ViewHelper\Exception
-	 * @todo add cache
-	 */
-	protected function getOptions() {
-		$options = array('' => '');
-
-		$countries = $this->countryRepository->findAll();
-		foreach ($countries as $country) {
-			// @todo translate country name
-			$label = $country->getName();
-			$identifier = $this->persistenceManager->getIdentifierByObject($country);
-			$options[$identifier] = $label;
-		}
-
-		asort($options);
-
-		return $options;
 	}
 
 	/**
