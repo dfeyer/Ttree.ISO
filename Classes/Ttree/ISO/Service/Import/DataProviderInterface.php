@@ -8,9 +8,6 @@ namespace Ttree\ISO\Service\Import;
 
 use TYPO3\Flow\Annotations as Flow;
 
-/**
- * @Flow\Scope("singleton")
- */
 interface DataProviderInterface {
 	/**
 	 * @param $resource
