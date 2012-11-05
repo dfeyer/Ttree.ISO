@@ -68,6 +68,8 @@ class CountryService {
 			$options[$identifier] = $label;
 		}
 
+		asort($options);
+
 		return $options;
 	}
 
