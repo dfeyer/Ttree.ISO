@@ -105,6 +105,12 @@ class Country {
 	protected $officialName;
 
 	/**
+	 * @Flow\Inject
+	 * @var \Ttree\ISO\Domain\Service\CountryService
+	 */
+	protected $countryService;
+
+	/**
 	 * @param string $standard
 	 */
 	public function setStandard($standard) {
@@ -200,6 +206,13 @@ class Country {
 	 */
 	public function getName() {
 		return $this->name;
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getLocalizedName() {
+		return $this->countryService->getLocalizedName($this);
 	}
 
 	/**

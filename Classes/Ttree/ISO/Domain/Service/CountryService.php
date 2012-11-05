@@ -6,7 +6,8 @@ namespace Ttree\ISO\Domain\Service;
  *                                                                        *
  *                                                                        */
 
-use TYPO3\Flow\Annotations as Flow;
+use TYPO3\Flow\Annotations as Flow,
+	Ttree\ISO\Domain\Model\Country;
 
 /**
  * @Flow\Scope("singleton")
@@ -59,11 +60,8 @@ class CountryService {
 
 		$countries = $this->countryRepository->findAll();
 		foreach ($countries as $country) {
-			$label = $country->getName();
-			$locale = $this->localizationService->getConfiguration()->getCurrentLocale();
-			if ($locale->getLanguage() !== 'en') {
-				$label = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Countries', 'Ttree.ISO');
-			}
+			$label = $this->getLocalizedName($country);
+			$label = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Countries', 'Ttree.ISO');
 			$identifier = $this->persistenceManager->getIdentifierByObject($country);
 			$options[$identifier] = $label;
 		}
@@ -71,6 +69,21 @@ class CountryService {
 		asort($options);
 
 		return $options;
+	}
+
+	/**
+	 * @param \Ttree\ISO\Domain\Model\Country $country
+	 * @return string
+	 */
+	public function getLocalizedName(Country $country) {
+		$label = $country->getName();
+		try {
+			$localizedLabel = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Countries', 'Ttree.ISO');
+		} catch (\TYPO3\Flow\I18n\Exception $e) {
+			$localizedLabel = $label;
+		}
+
+		return $localizedLabel;
 	}
 
 	/**
