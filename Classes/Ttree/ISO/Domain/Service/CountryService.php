@@ -113,12 +113,12 @@ class CountryService {
 		$propertyMappingConfiguration = $this->propertyMappingConfigurationBuilder->build();
 		$propertyMappingConfiguration->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\PersistentObjectConverter());
 
-		$propertyMappingConfiguration->setTypeConverterOption(
+		$propertyMappingConfiguration->forProperty('date_withdrawn')->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\DateTimeConverter());
+		$propertyMappingConfiguration->forProperty('date_withdrawn')->setTypeConverterOption(
 			'TYPO3\Flow\Property\TypeConverter\DateTimeConverter',
 			\TYPO3\Flow\Property\TypeConverter\DateTimeConverter::CONFIGURATION_DATE_FORMAT,
 			'Y-m-d'
 		);
-		$propertyMappingConfiguration->forProperty('date_withdrawn')->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\DateTimeConverter());
 
 		$propertyMappingConfiguration->setMapping('alpha_2_code', 'alpha2');
 		$propertyMappingConfiguration->setMapping('alpha_3_code', 'alpha3');
