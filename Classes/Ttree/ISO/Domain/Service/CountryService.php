@@ -56,7 +56,7 @@ class CountryService {
 	 * @return array  an associative array of options, key will be the value of the option tag
 	 */
 	public function prepareLocalizedOptionsList() {
-		$options = array('' => '');
+		$options = array();
 
 		$countries = $this->countryRepository->findAll();
 		foreach ($countries as $country) {
