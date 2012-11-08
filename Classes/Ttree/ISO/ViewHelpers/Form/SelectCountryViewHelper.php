@@ -121,9 +121,7 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 			return TRUE;
 		}
 		if ($this->hasArgument('multiple')) {
-			if ($selectedValue === NULL) {
-				return TRUE;
-			} elseif (is_array($selectedValue) && in_array($value, $selectedValue)) {
+			if (is_array($selectedValue) && in_array($value, $selectedValue)) {
 				return TRUE;
 			}
 		}
@@ -144,6 +142,7 @@ class SelectCountryViewHelper extends \TYPO3\Fluid\ViewHelpers\Form\AbstractForm
 		foreach ($value as $selectedValueElement) {
 			$selectedValues[] = $this->getOptionValueScalar($selectedValueElement);
 		}
+
 		return $selectedValues;
 	}
 
