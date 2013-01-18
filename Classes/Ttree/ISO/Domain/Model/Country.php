@@ -257,6 +257,13 @@ class Country {
 		return $this->numericCode;
 	}
 
+	/**
+	 * @return string
+	 */
+	public function __toString() {
+		return $this->alpha2;
+	}
+
 }
 
 ?>
