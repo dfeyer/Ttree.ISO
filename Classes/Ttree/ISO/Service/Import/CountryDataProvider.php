@@ -7,6 +7,7 @@ namespace Ttree\ISO\Service\Import;
  *                                                                        */
 
 use TYPO3\Flow\Annotations as Flow;
+use TYPO3\Flow\Utility\Arrays;
 
 /**
  * @Flow\Scope("singleton")
@@ -16,10 +17,12 @@ class CountryDataProvider extends AbstractDataProvider implements DataProviderIn
 	public function parseResource($resource) {
 		parent::parseResource($resource);
 
+		$processedData = array();
+
 		foreach ($this->data['iso_3166_entry'] as $key=>$data) {
 			$data = $data['@attributes'];
 			$data['standard'] = \Ttree\Iso\Domain\Model\Country::STANDARD_ISO_3166;
-			$this->data['iso_3166_entry'][$key] = $data;
+			$processedData[] = $data;
 		}
 
 		foreach ($this->data['iso_3166_3_entry'] as $key=>$data) {
@@ -27,10 +30,10 @@ class CountryDataProvider extends AbstractDataProvider implements DataProviderIn
 			$data['name'] = $data['names'];
 			unset( $data['names']);
 			$data['standard'] = \Ttree\Iso\Domain\Model\Country::STANDARD_ISO_3166_3;
-			$this->data['iso_3166_entry'][$key] = $data;
+			$processedData[] = $data;
 		}
 
-		$this->data = $this->data['iso_3166_entry'] + $this->data['iso_3166_3_entry'];
+		$this->data = $processedData;
 	}
 
 	/**
