@@ -21,7 +21,7 @@ class CountryDataProvider extends AbstractDataProvider implements DataProviderIn
 
 		foreach ($this->data['iso_3166_entry'] as $key=>$data) {
 			$data = $data['@attributes'];
-			$data['standard'] = \Ttree\Iso\Domain\Model\Country::STANDARD_ISO_3166;
+			$data['standard'] = \Ttree\ISO\Domain\Model\Country::STANDARD_ISO_3166;
 			$processedData[] = $data;
 		}
 
@@ -29,7 +29,7 @@ class CountryDataProvider extends AbstractDataProvider implements DataProviderIn
 			$data = $data['@attributes'];
 			$data['name'] = $data['names'];
 			unset( $data['names']);
-			$data['standard'] = \Ttree\Iso\Domain\Model\Country::STANDARD_ISO_3166_3;
+			$data['standard'] = \Ttree\ISO\Domain\Model\Country::STANDARD_ISO_3166_3;
 			$processedData[] = $data;
 		}
 

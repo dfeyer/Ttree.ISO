@@ -18,7 +18,7 @@ class LanguageDataProvider extends AbstractDataProvider implements DataProviderI
 
 		foreach ($this->data['iso_639_3_entry'] as $key=>$data) {
 			$this->data['iso_639_3_entry'][$key] = $data['@attributes'];
-			$this->data['iso_639_3_entry'][$key]['standard'] = \Ttree\Iso\Domain\Model\Language::STANDARD_ISO_639_3;
+			$this->data['iso_639_3_entry'][$key]['standard'] = \Ttree\ISO\Domain\Model\Language::STANDARD_ISO_639_3;
 		}
 	}
 
