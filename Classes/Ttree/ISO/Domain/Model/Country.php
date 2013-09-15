@@ -19,6 +19,9 @@ class Country {
 	const STANDARD_ISO_3166   = 'ISO3166';
 	const STANDARD_ISO_3166_3 = 'ISO3166-3';
 
+	const PROPERTY_ISO_3166   = 'alpha2';
+	const PROPERTY_ISO_3166_3 = 'alpha3';
+
 	/**
 	 * @var string
 	 * @Flow\Validate(type="Text")

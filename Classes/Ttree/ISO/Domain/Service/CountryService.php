@@ -78,7 +78,7 @@ class CountryService {
 	 * @param string $property
 	 * @return array
 	 */
-	public function validateCountryList(array $countries, $property = 'alpha2') {
+	public function validateCountryList(array $countries, $property = Country::PROPERTY_ISO_3166) {
 		$validatedCountries = array();
 		foreach ($countries as $country) {
 			if (isset($country[$property])) {
