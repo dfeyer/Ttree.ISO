@@ -22,12 +22,6 @@ class CountryService {
 
 	/**
 	 * @Flow\Inject
-	 * @var \TYPO3\Flow\I18n\Service
-	 */
-	protected $localizationService;
-
-	/**
-	 * @Flow\Inject
 	 * @var \TYPO3\Flow\Property\PropertyMapper
 	 */
 	protected $propertyMapper;
@@ -51,6 +45,12 @@ class CountryService {
 	protected $persistenceManager;
 
 	/**
+	 * @Flow\Inject
+	 * @var \TYPO3\Flow\Log\SystemLoggerInterface
+	 */
+	protected $systemLogger;
+
+	/**
 	 * Prepare a localized options list as array
 	 *
 	 * @return array  an associative array of options, key will be the value of the option tag
@@ -69,6 +69,31 @@ class CountryService {
 		asort($options);
 
 		return $options;
+	}
+
+	/**
+	 * Remove country with invalid country code
+	 *
+	 * @param array $countries
+	 * @param string $property
+	 * @return array
+	 */
+	public function validateCountryList(array $countries, $property = 'alpha2') {
+		$validatedCountries = array();
+		foreach ($countries as $country) {
+			if (isset($country[$property])) {
+				$countryEntity = $this->countryRepository->findByNumericalCode($country[$property], $property);
+				if ($countryEntity !== NULL) {
+					$validatedCountries[] = $country;
+				} else {
+					$this->systemLogger->log('Invalid country code: ' . $country[$property], LOG_WARNING, NULL, 'Ttree.ISO', __CLASS__, __METHOD__);
+				}
+			} else {
+				$this->systemLogger->log('Invalid country, missing field: ' . $property, LOG_WARNING, NULL, 'Ttree.ISO', __CLASS__, __METHOD__);
+			}
+		}
+
+		return $validatedCountries;
 	}
 
 	/**
@@ -111,22 +136,22 @@ class CountryService {
 	 */
 	protected function getPropertyMappingConfiguration() {
 		$propertyMappingConfiguration = $this->propertyMappingConfigurationBuilder->build();
-		$propertyMappingConfiguration->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\PersistentObjectConverter());
 
-		$propertyMappingConfiguration->forProperty('date_withdrawn')->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\DateTimeConverter());
-		$propertyMappingConfiguration->forProperty('date_withdrawn')->setTypeConverterOption(
-			'TYPO3\Flow\Property\TypeConverter\DateTimeConverter',
-			\TYPO3\Flow\Property\TypeConverter\DateTimeConverter::CONFIGURATION_DATE_FORMAT,
-			'Y-m-d'
-		);
+		$propertyMappingConfiguration->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\PersistentObjectConverter())
+			->forProperty('date_withdrawn')->setTypeConverter(new \TYPO3\Flow\Property\TypeConverter\DateTimeConverter())
+			->setTypeConverterOption(
+				'TYPO3\Flow\Property\TypeConverter\DateTimeConverter',
+				\TYPO3\Flow\Property\TypeConverter\DateTimeConverter::CONFIGURATION_DATE_FORMAT,
+				'Y-m-d'
+			);
 
-		$propertyMappingConfiguration->setMapping('alpha_2_code', 'alpha2');
-		$propertyMappingConfiguration->setMapping('alpha_3_code', 'alpha3');
-		$propertyMappingConfiguration->setMapping('alpha_4_code', 'alpha4');
-		$propertyMappingConfiguration->setMapping('numeric_code', 'numericCode');
-		$propertyMappingConfiguration->setMapping('common_name', 'commonName');
-		$propertyMappingConfiguration->setMapping('official_name', 'officialName');
-		$propertyMappingConfiguration->setMapping('date_withdrawn', 'dateOfWithdrawn');
+		$propertyMappingConfiguration->setMapping('alpha_2_code', 'alpha2')
+			->setMapping('alpha_3_code', 'alpha3')
+			->setMapping('alpha_4_code', 'alpha4')
+			->setMapping('numeric_code', 'numericCode')
+			->setMapping('common_name', 'commonName')
+			->setMapping('official_name', 'officialName')
+			->setMapping('date_withdrawn', 'dateOfWithdrawn');
 
 		return $propertyMappingConfiguration;
 	}
