@@ -6,12 +6,20 @@ namespace Ttree\ISO\Domain\Service;
  *                                                                        *
  *                                                                        */
 
+use Ttree\ISO\Domain\Model\Language;
 use TYPO3\Flow\Annotations as Flow;
+use TYPO3\Flow\I18n\Exception;
 
 /**
  * @Flow\Scope("singleton")
  */
 class LanguageService {
+
+	/**
+	 * @Flow\Inject
+	 * @var \TYPO3\Flow\I18n\Translator
+	 */
+	protected $translator;
 
 	/**
 	 * @Flow\Inject
@@ -55,6 +63,42 @@ class LanguageService {
 			}
 			$this->persistenceManager->persistAll();
 		}
+	}
+
+	/**
+	 * Prepare a localized options list as array
+	 *
+	 * @return array  an associative array of options, key will be the value of the option tag
+	 */
+	public function prepareLocalizedOptionsList() {
+		$options = array();
+
+		$languages = $this->languageRepository->findAll();
+		foreach ($languages as $language) {
+			$label = $this->getLocalizedName($language);
+			$label = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Languages', 'Ttree.ISO');
+			$identifier = $this->persistenceManager->getIdentifierByObject($language);
+			$options[$identifier] = $label;
+		}
+
+		asort($options);
+
+		return $options;
+	}
+
+	/**
+	 * @param Language $language
+	 * @return string
+	 */
+	public function getLocalizedName(Language $language) {
+		$label = $language->getName();
+		try {
+			$localizedLabel = $this->translator->translateByOriginalLabel($label, array(),NULL, NULL, 'Languages', 'Ttree.ISO');
+		} catch (Exception $e) {
+			$localizedLabel = $label;
+		}
+
+		return $localizedLabel;
 	}
 
 	/**
